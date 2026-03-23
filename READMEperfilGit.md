@@ -1,214 +1,142 @@
-# ¡Hola! 👋 Soy Alex Micó Robles
-
 <div align="center">
 
-### Full Stack Developer | Stack MERN | Explorando IA & Claude | 🇪🇸 España
+# Alex Micó Robles
 
-![Visitas al perfil](https://komarev.com/ghpvc/?username=ElRaxy&color=blueviolet)
+### Full Stack Developer | MERN | Claude Explorer | 🇪🇸
+
+![Views](https://komarev.com/ghpvc/?username=ElRaxy&color=9945FF&style=flat-square)
 
 </div>
 
 ---
 
-## 🚀 Sobre Mí
+## 👋 Quién Soy
 
-Soy desarrollador Full Stack especializado en **MERN** (MongoDB, Express, React, Node.js). Actualmente estoy explorando el **ecosistema Claude y agentes de IA**. Termino mi DAW y estoy en prácticas, pero como ahí me dedico más a tareas administrativas, aprovecho para formarme en mis ratos libres.
+Desarrollador Full Stack con especialidad en **MERN Stack**. 
 
-Creo en aprender haciendo. Prefiero construir cosas reales a teoría aburrida, así que siempre tengo proyectos en marcha. 💪
+Termino mi DAW en prácticas. Creo en construir cosas reales, no en teoría aburrida. 💪
 
----
-
-## 🛠️ Stack Técnico
-
-<div align="center">
-
-### Lenguajes & Frameworks
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)
-
-### Estilos & UI
-![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34C26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-
-### Backend & Base de Datos
-![MongoDB](https://img.shields.io/badge/MongoDB-13AA52?style=for-the-badge&logo=mongodb&logoColor=white)
-![JWT](https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=JSON%20web%20tokens&logoColor=white)
-
-### Herramientas & Plataformas
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
-
-### Aprendiendo ahora 🤖
-![Claude API](https://img.shields.io/badge/Claude%20API-Aprendiendo-blueviolet?style=for-the-badge)
-![Agentes IA](https://img.shields.io/badge/Agentes%20IA-Explorando-9cf?style=for-the-badge)
-
-</div>
+**Ahora mismo:** Llevando **Trainity** a producción y explorando **Claude API**.
 
 ---
 
-## 📊 Proficiencia por Tecnología
+## 🏆 Proyectos
 
-| Tecnología | Nivel |
-|-----------|-------|
-| **HTML & CSS** | ████████░ 90% |
-| **JavaScript** | ████████░ 85% |
-| **React.js** | ████████░ 85% |
-| **Tailwind CSS** | ███████░░ 80% |
-| **Node.js** | ███████░░ 75% |
-| **MongoDB** | ███████░░ 75% |
+### 🏋️ Trainity — Mi Proyecto Principal
 
----
+**Plataforma de gestión de entrenamientos y rutinas fitness**
 
-## 💼 Formación & Experiencia
-
-📚 **DAW** - Ciclo Formativo de Desarrollo de Aplicaciones Web  
-💼 **Estado:** En prácticas finales  
-🎯 **Especialidad:** Full Stack Development con Stack MERN  
-🤖 **Aprendiendo:** Claude, Agentes de IA
-
----
-
-## ❓ ¿Por qué MERN?
-
-Lo aprendí en mi ciclo de DAW y honestamente me ha enganchado. Es un stack versátil, moderno y con una comunidad increíble detrás. Permite construir aplicaciones completas sin saltar entre muchos lenguajes, y eso es algo que realmente valoro.
-
----
-
-## 🎓 Mi Viaje en Desarrollo
-
-**2024** — Empecé desde cero
-
-| Mes | Tecnología | Estado |
-|-----|-----------|--------|
-| Q1 | HTML & CSS | ✅ Dominado |
-| Q2 | Python | ✅ Aprendido |
-| Q2 | JAVA | ✅ Aprendido |
-| Q3 | JavaScript | ✅ Sólido |
-| Q3 | React & Node.js | 🚀 Especialidad |
-
-**2026** — Explorando Claude & Agentes de IA 🤖
-
----
-
-## 📌 Proyectos Destacados
-
-### 🏋️ Trainity
-
-**Plataforma para gestionar entrenamientos y rutinas fitness**
-
-Una plataforma donde entrenadores pueden gestionar sus clientes y rutinas, y donde cualquiera puede crear y seguir sus propios planes de entrenamiento. Con sistema de planes gratuitos y de pago.
+*Sistema completo donde entrenadores gestionan clientes y rutinas, y cualquiera puede crear planes personalizados.*
 
 **Lo que incluye:**
-- Gestión de clientes y rutinas personalizadas
-- Seguimiento de logs de entrenamiento
-- Planes gratuitos y de pago
-- Funciona con o sin entrenador asignado
+- Gestión de clientes + rutinas personalizadas
+- Seguimiento de logs de entrenamiento en tiempo real
+- Sistema de planes freemium
+- Autenticación JWT segura
+- Dashboard intuitivo y responsive
+- Base de datos escalable
 
-🔒 *Código privado por ahora — Plataforma pública próximamente*
+**Stack:** React • Node.js • Express • MongoDB • Tailwind CSS
 
-**Tech:** React • Node.js • Express • MongoDB • Tailwind CSS • shadcn/ui
+🔒 *Código privado — Lanzamiento próximo*
 
 ---
 
 ### 💼 Admin Dashboard
 
-**Dashboard administrativo moderno**
+Dashboard administrativo moderno y funcional.
 
-Dashboard funcional para demostrar que sé montar interfaces que funcionan.
+**[📂 Código](https://github.com/ElRaxy/AdminDashBoard)** • **[🌐 Ver en Vivo](https://admin-dash-board-alex.vercel.app/)**
 
-<div align="center">
-
-[![Código](https://img.shields.io/badge/Código-GitHub-black?style=for-the-badge&logo=github)](https://github.com/ElRaxy/AdminDashBoard)
-[![Ver en vivo](https://img.shields.io/badge/Ver%20en%20vivo-Vercel-blue?style=for-the-badge&logo=vercel)](https://admin-dash-board-alex.vercel.app/)
-
-</div>
-
-**Tech:** React • CSS • JavaScript
+**Stack:** React • CSS • JavaScript
 
 ---
 
-### 🎨 Portafolio
-
-**Portafolio personal**
+### 🎨 Portafolio Personal
 
 Mi tarjeta de presentación digital.
 
-<div align="center">
+**[📂 Código](https://github.com/ElRaxy/PortfolioAlexMico)** • **[🌐 Ver en Vivo](https://portfolioalex-mico.vercel.app/)**
 
-[![Código](https://img.shields.io/badge/Código-GitHub-black?style=for-the-badge&logo=github)](https://github.com/ElRaxy/PortfolioAlexMico)
-[![Ver en vivo](https://img.shields.io/badge/Ver%20en%20vivo-Vercel-blue?style=for-the-badge&logo=vercel)](https://portfolioalex-mico.vercel.app/)
-
-</div>
-
-**Tech:** HTML5 • CSS3 • JavaScript
+**Stack:** HTML5 • CSS3 • JavaScript
 
 ---
 
-## 📊 Estadísticas de GitHub
+## 💻 Stack Tecnológico
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=ElRaxy&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117)
+**Frontend:**
+![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=000)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=000)
+![HTML5](https://img.shields.io/badge/HTML5-E34C26?style=flat-square&logo=html5&logoColor=fff)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=fff)
+![Tailwind](https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=fff)
 
-![Lenguajes principales](https://github-readme-stats.vercel.app/api/top-langs/?username=ElRaxy&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117)
+**Backend:**
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=fff)
+![Express](https://img.shields.io/badge/Express-000?style=flat-square&logo=express&logoColor=fff)
+![MongoDB](https://img.shields.io/badge/MongoDB-13AA52?style=flat-square&logo=mongodb&logoColor=fff)
 
----
+**Tools:**
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=fff)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=fff)
+![Vercel](https://img.shields.io/badge/Vercel-000?style=flat-square&logo=vercel&logoColor=fff)
 
-## 💡 Mis Valores Como Developer
-
-### 🧹 Código Limpio y Legible
-Creo que el código se escribe una vez pero se lee muchas veces. Siempre intento escribir código que cualquier otro developer pueda entender sin dolor de cabeza.
-
-### 🤝 Colaboración en Equipo
-El mejor código nace de la colaboración. Me encanta trabajar con otros, compartir ideas y aprender de mis compañeros.
-
-### 👥 Liderazgo
-Aunque estoy empezando, creo que el liderazgo no es solo sobre dar órdenes. Es sobre inspirar, guiar y sacar lo mejor de quien te rodea.
-
----
-
-## 🎯 Mi Roadmap
-
-- ✨ Terminar DAW sin drama
-- 🚀 Desplegar Trainity en serio
-- 💼 Conseguir mi primer rol como developer profesional
-- 🤖 Profundizar en IA y agentes autónomos
-- 🌟 Contribuir a proyectos open-source
+**Explorando:**
+![Claude API](https://img.shields.io/badge/Claude%20API-9945FF?style=flat-square&logo=anthropic&logoColor=fff)
 
 ---
 
-## 🔗 Open Source & Comunidad
+## 📊 Mi Viaje en Desarrollo
 
-Actualmente busco formas de contribuir a proyectos open-source que realmente me apasionen. Si tienes algún proyecto en mente o necesitas colaboración, **¡no dudes en contactarme!**
-
-Mi objetivo es no solo ser un consumer de código abierto, sino también un contributor activo de la comunidad.
-
----
-
-## 🎵 Cuando No Estoy Programando
-
-🎒 Viajando por nuevos lugares  
-💪 Machacándome en el gym  
-🎵 Escuchando música (mi fuente de inspiración)
+| Período | Hito                  | Estado |
+| ------- | --------------------- | ------ |
+| Q1 2024 | HTML & CSS            | ✅      |
+| Q2 2024 | Python, Java          | ✅      |
+| Q3 2024 | JavaScript, React     | ✅      |
+| Q4 2024 | Node.js, MongoDB      | 🚀      |
+| 2026    | Claude API, IA Agents | 🤖      |
 
 ---
 
-## 📬 Conectemos
+## ¿En Qué Puedo Ayudarte?
+
+✨ **Transformar diseños de Figma a código React píxel-perfecto**
+
+🚀 **Construir aplicaciones Full Stack desde cero**
+
+🤖 **Integrar Claude API y agentes autónomos en tus proyectos**
+
+💪 **Crear plataformas escalables con MERN**
+
+---
+
+## 📈 GitHub Stats
 
 <div align="center">
 
-[![GitHub](https://img.shields.io/badge/-GitHub-181717?style=for-the-badge&logo=github)](https://github.com/ElRaxy)
-[![Email](https://img.shields.io/badge/-Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:alexmico2006@gmail.com)
-[![Portafolio](https://img.shields.io/badge/-Portafolio-4285F4?style=for-the-badge&logo=google-chrome&logoColor=white)](https://portfolioalex-mico.vercel.app/)
+![Stats](https://github-readme-stats.vercel.app/api?username=ElRaxy&show_icons=true&theme=dracula&hide_border=true&bg_color=1a1a2e&title_color=9945FF&icon_color=06B6D4)
+
+![Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=ElRaxy&layout=compact&theme=dracula&hide_border=true&bg_color=1a1a2e&title_color=9945FF)
 
 </div>
 
 ---
 
+## 🔗 Contacto
+
 <div align="center">
 
-*Building things that matter*
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=fff)](https://github.com/ElRaxy)
+[![Email](https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=fff)](mailto:alexmico2006@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=fff)](https://linkedin.com/in/alexmico)
+[![Portafolio](https://img.shields.io/badge/Portafolio-4285F4?style=flat-square&logo=google-chrome&logoColor=fff)](https://portfolioalex-mico.vercel.app/)
+
+</div>
+
+---
+
+<div align="center">
+
+*Building things that matter* ✨
 
 </div>
