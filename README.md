@@ -1,94 +1,93 @@
 <div align="center">
 
 # ⚡ Alex Micó Robles
-### Full Stack Developer | Claude Power User | MERN Specialist
+### AI Developer | Full Stack (MERN) | Claude Code Specialist
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=9945FF&center=true&vCenter=true&width=435&lines=Building+with+Claude;MERN+Stack+Expert;DAW+Final+Year;Shipping+Trainity+%F0%9F%8F%8B%EF%B8%8F)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=25&pause=1000&color=00E5FF&center=true&vCenter=true&width=500&lines=AI+Developer;Building+with+Claude+Code;MERN+Stack+Specialist;Shipping+Trainity+%F0%9F%8F%8B%EF%B8%8F)](https://git.io/typing-svg)
 
-![Vistas](https://komarev.com/ghpvc/?username=ElRaxy&color=9945FF&style=flat-square)
+<img src="https://komarev.com/ghpvc/?username=ElRaxy&color=BD00FF&style=flat-square" alt="Vistas" />
 
 </div>
 
 ---
 
-## 🚀 Sobre mí
-> "No solo escribo código; diseño sistemas. Mi enfoque actual es la simbiosis entre el desarrollo **MERN** tradicional y flujos de trabajo avanzados con **Claude** y **Claude Code** para acelerar la puesta en producción sin sacrificar la calidad."
+## ⚡ El Enfoque
+> "Escribo código de alto rendimiento fusionando el stack **MERN** con capacidades de **IA**. Mi objetivo es reducir la fricción entre la idea y el despliegue, utilizando **Claude** y **Claude Code** para construir software robusto y escalable."
 
-- 🎓 Finalizando **DAW** (Desarrollo de Aplicaciones Web).
-- 🏗️ Construyendo **Trainity** (SaaS Fitness).
-- 🤖 Obsesionado con la automatización y el desarrollo asistido por IA.
+- 🚀 **AI Developer:** Construyendo la próxima generación de aplicaciones web potenciadas por IA.
+- 🎓 **DAW:** Finalizando formación superior con tecnologías de última hornada.
+- 🏗️ **Current Mission:** Evolucionando **Trainity** de MVP a producto de producción.
 
 ---
 
-## 🛠️ Tech Stack & Intelligence
+## 🛠️ Stack & Intelligence
 
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3>🤖 AI & Workflow</h3>
-      <img src="https://img.shields.io/badge/Claude-9945FF?style=for-the-badge&logo=anthropic&logoColor=white" />
-      <img src="https://img.shields.io/badge/Claude_Code-7532D1?style=for-the-badge&logo=anthropic&logoColor=white" />
-      <p align="left">
-        <i>Uso Claude para refactorización compleja, diseño de arquitecturas escalables y unit testing.</i>
+      <h3>🤖 AI Development</h3>
+      <p>
+        <img src="https://img.shields.io/badge/Claude-3D314D?style=flat-square&logo=anthropic&logoColor=BD00FF" style="pointer-events: none;" />
+        <img src="https://img.shields.io/badge/Claude_Code-2A3C42?style=flat-square&logo=anthropic&logoColor=00E5FF" style="pointer-events: none;" />
       </p>
-      <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" />
-      <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" />
-      <img src="https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white" />
+      <p>Desarrollo acelerado y lógica compleja asistida por modelos de lenguaje de vanguardia.</p>
     </td>
     <td width="50%" valign="top">
-      <h3>💻 Full Stack (MERN)</h3>
-      <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white" />
-      <img src="https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white" />
-      <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" />
-      <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" />
-      <br>
-      <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" />
-      <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwind-css&logoColor=white" />
+      <h3>💻 Modern MERN</h3>
+      <p>
+        <img src="https://img.shields.io/badge/React_19-23272F?style=flat-square&logo=react&logoColor=61DAFB" style="pointer-events: none;" />
+        <img src="https://img.shields.io/badge/Express_5-000?style=flat-square&logo=express&logoColor=white" style="pointer-events: none;" />
+        <img src="https://img.shields.io/badge/Node-339933?style=flat-square&logo=nodedotjs&logoColor=white" style="pointer-events: none;" />
+        <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white" style="pointer-events: none;" />
+      </p>
+      <p>
+        <img src="https://img.shields.io/badge/Vite_7-646CFF?style=flat-square&logo=vite&logoColor=white" style="pointer-events: none;" />
+        <img src="https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwind-css&logoColor=white" style="pointer-events: none;" />
+        <img src="https://img.shields.io/badge/Zod-3E67B1?style=flat-square&logo=zod&logoColor=white" style="pointer-events: none;" />
+      </p>
     </td>
   </tr>
 </table>
 
 ---
 
-## 🏗️ Proyectos Destacados
+## 🏗️ Proyecto Destacado: Trainity 
+### 🟢 Status: Desarrollo Activo
+**Control total del entrenamiento y sobrecarga progresiva.**
 
-### 🏋️ Trainity — *Flagship Project*
-**Plataforma de gestión de alto rendimiento para fitness.**
-*Dashboard de entrenadores, seguimiento en tiempo real y arquitectura escalable.*
+* **Usuario Independiente:** Trackeo preciso de cargas y técnica para garantizar una **sobrecarga progresiva** real. Monitorización con métricas de rendimiento y análisis de vídeo mediante IA.
+* **Entrenador (360°):** Central de mando para gestionar la progresión propia y la de todos los clientes, asignando rutinas y supervisando feedback en tiempo real.
+* **Social:** Sistema de XP, niveles y PRs para gamificar el rendimiento.
 
-- ✅ **Backend:** API REST robusta con Node/Express.
-- ✅ **Frontend:** Experiencia de usuario fluida con React y Tailwind.
-- ✅ **Auth:** Implementación de seguridad avanzada con JWT.
-- ✅ **IA Integration:** Flujos de trabajo optimizados con Claude para el desarrollo de módulos.
-
-![Trainity Placeholder](https://raw.githubusercontent.com/ElRaxy/ElRaxy/main/trainity-placeholder.png) 
-
----
-
-### 💼 Otros Proyectos
-<table border="0">
-  <tr>
-    <td width="50%">
-      <h4>Admin Dashboard</h4>
-      <p>Gestión administrativa moderna con visualización de datos.</p>
-      <a href="https://github.com/ElRaxy/AdminDashBoard">📂 Código</a> • <a href="https://admin-dash-board-alex.vercel.app/">🌐 Demo</a>
-    </td>
-    <td width="50%">
-      <h4>Personal Portfolio</h4>
-      <p>Mi identidad digital enfocada en performance y diseño limpio.</p>
-      <a href="https://github.com/ElRaxy/PortfolioAlexMico">📂 Código</a> • <a href="https://portfolioalex-mico.vercel.app/">🌐 Demo</a>
-    </td>
-  </tr>∫
-</table>
+<div align="center">
+  <p><strong>System Load: Production Progress</strong></p>
+  <img src="https://progress-bar.dev/75/?scale=100&title=Building&width=360&color=BD00FF&suffix=%" alt="Progress" />
+</div>
 
 ---
 
-## 📈 Mi Trayectoria (2024 - 2026)
+## 📈 Actividad
+<div align="center">
 
-```mermaid
-graph LR
-    A[HTML/CSS] --> B[JS/React]
-    B --> C[Node/MongoDB]
-    C --> D[MERN Mastery]
-    D --> E[Claude & AI Agents]
-    style E fill:#9945FF,stroke:#fff,stroke-width:2px,color:#fff
+### Contribution Journey 🐍
+<img src="https://raw.githubusercontent.com/ElRaxy/ElRaxy/output/github-contribution-grid-snake.svg" alt="Snake animation" />
+
+<br>
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ElRaxy&layout=compact&theme=tokyonight&title_color=00E5FF&hide_border=true&bg_color=0D1117" alt="Langs" />
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=ElRaxy&theme=tokyonight&hide_border=true&stroke=BD00FF&background=0D1117&ring=00E5FF&fire=00E5FF" alt="Streak" />
+
+</div>
+
+---
+
+## 📬 Contacto
+<div align="center">
+
+<a href="https://linkedin.com/in/alexmico"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" /></a>
+<a href="mailto:alexmico2006@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white" /></a>
+<a href="https://github.com/ElRaxy"><img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" /></a>
+
+**"Iterating at the speed of thought, building at the speed of Claude."** ✨
+
+</div>
