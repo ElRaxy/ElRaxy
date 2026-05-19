@@ -10,19 +10,17 @@
 
 ---
 
-## ⚡ El Enfoque
+## Approach
 
-> Construyo software web de principio a fin y reduzco la fricción entre la idea y el despliegue, combinando el stack **MERN** con flujos de ingeniería asistidos por **IA**.
->
-> *I build production web products end to end and ship fast, pairing a modern MERN stack with AI-assisted engineering.*
+> I build production web products end to end and reduce the friction between idea and deployment, pairing a modern **MERN** stack with **AI-assisted** engineering workflows.
 
-- **Foco:** aplicaciones web robustas y bien testeadas.
-- **Misión actual:** llevar **[Strev](https://strev.app)** de MVP a producción.
-- **Abierto a:** roles Full-Stack / Backend · remoto · España.
+- **Focus:** robust, well-tested web applications.
+- **Current mission:** taking **[Strev](https://strev.app)** from MVP to production.
+- **Open to:** Full-Stack / Backend roles · remote · Spain.
 
 ---
 
-## 🛠️ Stack & Intelligence
+## Stack & Intelligence
 
 <table>
 <tr>
@@ -32,7 +30,7 @@
 <img src="https://img.shields.io/badge/Claude_Code-0D1117?style=flat-square&logo=anthropic&logoColor=8957E5"/>
 <img src="https://img.shields.io/badge/LLM_APIs-0D1117?style=flat-square&logo=openai&logoColor=58A6FF"/>
 </p>
-<p><sub>Desarrollo acelerado y lógica compleja asistida por modelos de vanguardia.</sub></p>
+<p><sub>Accelerated delivery and complex logic assisted by frontier models.</sub></p>
 </td>
 <td width="50%" valign="top">
 <h3>Modern MERN</h3>
@@ -54,13 +52,13 @@
 
 ---
 
-## 🧭 Cómo construyo
+## How I Build
 
-- **Spec-Driven Development (SDD):** especificación y criterios de aceptación (notación EARS) antes de escribir código.
-- **Harness Engineering** *(ingeniería de arneses):* orquestación multi-agente — subagentes en paralelo que escriben a archivo, sin degradar contexto.
-- **Arquitectura dirigida por ADRs:** cada decisión técnica documentada y enlazada.
-- **TDD + verificación en dos capas:** tests automáticos + E2E antes de declarar nada terminado.
-- **Conventional Commits** y revisión de código sistemática.
+- **Spec-Driven Development (SDD):** specification and acceptance criteria (EARS notation) before writing code.
+- **Harness Engineering:** multi-agent orchestration — parallel subagents write to files, keeping context clean.
+- **ADR-driven architecture:** every technical decision documented and linked.
+- **TDD + two-layer verification:** automated tests plus end-to-end before anything is called done.
+- **Conventional Commits** and systematic code review.
 
 **Deploy & Ops**
 
@@ -72,23 +70,33 @@
 <img src="https://img.shields.io/badge/GitHub_Actions-0D1117?style=flat-square&logo=githubactions&logoColor=2088FF"/>
 <img src="https://img.shields.io/badge/Sentry_·_GlitchTip-0D1117?style=flat-square&logo=sentry&logoColor=B36DF2"/>
 </p>
-<sub>CI/CD, observabilidad y deploys: Cloudflare Pages/Workers/R2 · Render · Netlify · Docker · GitHub Actions · Sentry/GlitchTip + BetterStack.</sub>
+<sub>CI/CD, observability and deploys: Cloudflare Pages/Workers/R2 · Render · Netlify · Docker · GitHub Actions · Sentry/GlitchTip + BetterStack.</sub>
 
 ---
 
-## 🏗️ Proyecto destacado: Strev
+## Featured Project — Strev
 
-**SaaS de entrenamiento — control total y sobrecarga progresiva.** · [strev.app](https://strev.app) · `producción · beta`
+**Training SaaS — full control and progressive overload.** · [strev.app](https://strev.app) · `production · beta`
 
-- **Atleta:** trackeo preciso de cargas y técnica para sobrecarga progresiva real, con métricas y análisis de vídeo por IA.
-- **Entrenador (360º):** central de mando para gestionar la progresión propia y la de todos los clientes.
-- **Social:** sistema de XP, niveles y PRs para gamificar el rendimiento.
+- **Athlete:** precise load and technique tracking for real progressive overload, with metrics and AI video analysis.
+- **Trainer (360º):** command center to manage own progression and that of every client.
+- **Social:** XP, levels and PR system to gamify performance.
 
 <sub><b>Stack:</b> React 19 · Express 5 · MongoDB · Zod · Stripe · Cloudflare</sub>
 
 ---
 
-## 📈 Actividad
+## Other Projects
+
+- **Agora AI** — multi-LLM orchestration cockpit: query and compare several models side by side from one local dashboard. `Electron · React · multi-provider LLM` · *WIP*
+- **Atalaya** — AI-powered job aggregator: pulls and ranks dev offers from multiple sources into one feed (`bhound` binary). `Python · LLM ranking` · *WIP*
+- **Social Publisher** *(renaming)* — unifies posting across social networks: AI-drafted copy, preview, schedule, multi-account. `Node · React · n8n · Gemini` · *WIP*
+
+<sub>Repos open progressively.</sub>
+
+---
+
+## Activity
 
 <div align="center">
 
@@ -98,7 +106,7 @@
 
 ---
 
-## 📬 Contacto
+## Contact
 
 <div align="center">
 
