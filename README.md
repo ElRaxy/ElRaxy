@@ -16,6 +16,9 @@ Strev — live at [strev.app](https://strev.app) · MERN monorepo · CI + E2E + 
 
 </div>
 
+**Modern MERN** — React 19 · Express 5 · Node · MongoDB · TypeScript · Vite · Tailwind · Zod · Docker
+**AI Development** — Claude Code · LLM APIs (accelerated delivery, complex logic with frontier models)
+
 ## How I Build
 
 - **Spec-Driven Development (SDD):** specification and acceptance criteria (EARS notation) before writing code.
@@ -29,6 +32,8 @@ Strev — live at [strev.app](https://strev.app) · MERN monorepo · CI + E2E + 
 <img src="./assets/deploy.svg" width="100%" alt="Deploy and Ops: Cloudflare, Render, Netlify, Docker, GitHub Actions, Sentry/GlitchTip, BetterStack"/>
 
 </div>
+
+**Deploy & Ops** — Cloudflare · Render · Netlify · Docker · GitHub Actions · Sentry/GlitchTip · BetterStack · CI/CD · observability
 
 ## Projects
 
@@ -50,6 +55,11 @@ Strev — live at [strev.app](https://strev.app) · MERN monorepo · CI + E2E + 
 <td width="50%"><a href="https://github.com/ElRaxy"><img src="./assets/proj-social.svg" width="100%" alt="Social Publisher"/></a></td>
 </tr>
 </table>
+
+- **[Strev](https://strev.app)** — training SaaS, progressive overload (athlete + trainer 360º + AI video). *Production · beta.* `React 19 · Express 5 · MongoDB · Zod · Stripe`
+- **Agora AI** — multi-LLM orchestration cockpit; compare models side by side, locally. *WIP.* `Electron · React`
+- **Atalaya** — AI job aggregator that ranks dev offers into one feed (`bhound`). *WIP.* `Python`
+- **Social Publisher** *(renaming)* — unified social posting with AI-drafted copy. *WIP.* `Node · React · n8n · Gemini`
 
 <sub>Other repos open progressively.</sub>
 
