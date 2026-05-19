@@ -88,9 +88,6 @@
 
 <div align="center">
 
-![stats](https://github-readme-stats.vercel.app/api?username=ElRaxy&show_icons=true&theme=tokyonight&hide_border=true&bg_color=00000000&title_color=58A6FF&icon_color=8957E5&text_color=c9d1d9&include_all_commits=true&count_private=true)
-![langs](https://github-readme-stats.vercel.app/api/top-langs/?username=ElRaxy&layout=compact&theme=tokyonight&hide_border=true&bg_color=00000000&title_color=58A6FF&text_color=c9d1d9&langs_count=8)
-
 ![activity](https://github-readme-activity-graph.vercel.app/graph?username=ElRaxy&bg_color=0d1117&color=58A6FF&line=8957E5&point=ffffff&hide_border=true&area=true)
 
 </div>
