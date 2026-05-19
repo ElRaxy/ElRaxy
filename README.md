@@ -38,17 +38,16 @@
 
 <a href="https://strev.app"><img src="./assets/strev-live.png" width="100%" alt="Strev — live at strev.app"/></a>
 
-<a href="https://strev.app"><img src="./assets/proj-strev.svg" width="100%" alt="Strev"/></a>
-
 </div>
-
-### More
 
 <table>
 <tr>
-<td width="33%"><a href="https://github.com/ElRaxy"><img src="./assets/proj-agora.svg" width="100%" alt="Agora AI"/></a></td>
-<td width="33%"><a href="https://github.com/ElRaxy"><img src="./assets/proj-atalaya.svg" width="100%" alt="Atalaya"/></a></td>
-<td width="33%"><a href="https://github.com/ElRaxy"><img src="./assets/proj-social.svg" width="100%" alt="Social Publisher"/></a></td>
+<td width="50%"><a href="https://strev.app"><img src="./assets/proj-strev.svg" width="100%" alt="Strev"/></a></td>
+<td width="50%"><a href="https://github.com/ElRaxy"><img src="./assets/proj-agora.svg" width="100%" alt="Agora AI"/></a></td>
+</tr>
+<tr>
+<td width="50%"><a href="https://github.com/ElRaxy"><img src="./assets/proj-atalaya.svg" width="100%" alt="Atalaya"/></a></td>
+<td width="50%"><a href="https://github.com/ElRaxy"><img src="./assets/proj-social.svg" width="100%" alt="Social Publisher"/></a></td>
 </tr>
 </table>
 
