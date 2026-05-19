@@ -1,14 +1,8 @@
-# Alex Micó Robles
-
-**Full-Stack Engineer — MERN · AI-assisted delivery**
-
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com/?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=900&color=58A6FF&center=true&vCenter=true&width=620&lines=Full-Stack+Engineer+%E2%80%94+MERN;Shipping+with+AI-assisted+workflows;Building+Strev+from+MVP+to+production)](https://strev.app)
+<img src="./assets/hero.svg" width="100%" alt="Alex Micó Robles — Full-Stack Engineer (MERN)"/>
 
 </div>
-
----
 
 ## Approach
 
@@ -17,8 +11,6 @@
 - **Focus:** robust, well-tested web applications.
 - **Current mission:** taking **[Strev](https://strev.app)** from MVP to production.
 - **Open to:** Full-Stack / Backend roles · remote · Spain.
-
----
 
 ## Stack & Intelligence
 
@@ -50,8 +42,6 @@
 </tr>
 </table>
 
----
-
 ## How I Build
 
 - **Spec-Driven Development (SDD):** specification and acceptance criteria (EARS notation) before writing code.
@@ -72,39 +62,28 @@
 </p>
 <sub>CI/CD, observability and deploys: Cloudflare Pages/Workers/R2 · Render · Netlify · Docker · GitHub Actions · Sentry/GlitchTip + BetterStack.</sub>
 
----
+## Projects
 
-## Featured Project — Strev
+<table>
+<tr>
+<td width="50%"><a href="https://strev.app"><img src="./assets/proj-strev.svg" width="100%" alt="Strev"/></a></td>
+<td width="50%"><a href="https://github.com/ElRaxy"><img src="./assets/proj-agora.svg" width="100%" alt="Agora AI"/></a></td>
+</tr>
+<tr>
+<td width="50%"><a href="https://github.com/ElRaxy"><img src="./assets/proj-atalaya.svg" width="100%" alt="Atalaya"/></a></td>
+<td width="50%"><a href="https://github.com/ElRaxy"><img src="./assets/proj-social.svg" width="100%" alt="Social Publisher"/></a></td>
+</tr>
+</table>
 
-**Training SaaS — full control and progressive overload.** · [strev.app](https://strev.app) · `production · beta`
-
-- **Athlete:** precise load and technique tracking for real progressive overload, with metrics and AI video analysis.
-- **Trainer (360º):** command center to manage own progression and that of every client.
-- **Social:** XP, levels and PR system to gamify performance.
-
-<sub><b>Stack:</b> React 19 · Express 5 · MongoDB · Zod · Stripe · Cloudflare</sub>
-
----
-
-## Other Projects
-
-- **Agora AI** — multi-LLM orchestration cockpit: query and compare several models side by side from one local dashboard. `Electron · React · multi-provider LLM` · *WIP*
-- **Atalaya** — AI-powered job aggregator: pulls and ranks dev offers from multiple sources into one feed (`bhound` binary). `Python · LLM ranking` · *WIP*
-- **Social Publisher** *(renaming)* — unifies posting across social networks: AI-drafted copy, preview, schedule, multi-account. `Node · React · n8n · Gemini` · *WIP*
-
-<sub>Repos open progressively.</sub>
-
----
+<sub><b>Strev</b> is live at <a href="https://strev.app">strev.app</a> · other repos open progressively.</sub>
 
 ## Activity
 
 <div align="center">
 
-![activity](https://github-readme-activity-graph.vercel.app/graph?username=ElRaxy&bg_color=0d1117&color=58A6FF&line=8957E5&point=ffffff&hide_border=true&area=true)
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=ElRaxy&bg_color=0d1117&color=58A6FF&line=8957E5&point=ffffff&hide_border=true&area=true" width="100%" alt="Contribution activity"/>
 
 </div>
-
----
 
 ## Contact
 
