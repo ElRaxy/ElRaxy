@@ -34,7 +34,7 @@
 
 <div align="center">
 
-<a href="https://strev.app"><img src="./assets/strev-live.png" width="78%" alt="Strev — live at strev.app"/></a>
+<a href="https://strev.app"><img src="./assets/strev-live.png" width="100%" alt="Strev — live at strev.app"/></a>
 
 </div>
 
