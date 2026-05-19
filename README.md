@@ -6,7 +6,7 @@
 
 **Open to Full-Stack / Backend roles** — remote · Spain · available now
 
-**Strev** — live at **[strev.app](https://strev.app)** · MERN monorepo · CI + E2E + Sentry in production.
+Strev — live at [strev.app](https://strev.app) · MERN monorepo · CI + E2E + Sentry in production.
 
 ## Stack & Intelligence
 
