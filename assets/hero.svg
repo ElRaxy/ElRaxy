@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="900" height="360" viewBox="0 0 900 360" fill="none" xmlns="http://www.w3.org/2000/svg" font-family="'JetBrains Mono','SFMono-Regular',ui-monospace,Consolas,monospace">
+<svg width="900" height="384" viewBox="0 0 900 384" fill="none" xmlns="http://www.w3.org/2000/svg" font-family="'JetBrains Mono','SFMono-Regular',ui-monospace,Consolas,monospace">
   <defs>
     <linearGradient id="accent" x1="0" y1="0" x2="900" y2="0" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#1F6FEB"/>
@@ -12,14 +12,14 @@
     </linearGradient>
   </defs>
 
-  <rect x="1" y="1" width="898" height="358" rx="14" fill="url(#bg)" stroke="#30363D" stroke-width="1.5"/>
+  <rect x="1" y="1" width="898" height="382" rx="14" fill="url(#bg)" stroke="#30363D" stroke-width="1.5"/>
   <rect x="1" y="1" width="898" height="4" rx="2" fill="url(#accent)"/>
 
   <!-- title bar -->
   <circle cx="34" cy="42" r="6" fill="#FF5F56"/>
   <circle cx="56" cy="42" r="6" fill="#FFBD2E"/>
   <circle cx="78" cy="42" r="6" fill="#27C93F"/>
-  <text x="450" y="46" fill="#6E7681" font-size="14" text-anchor="middle">alex@github — ~/profile</text>
+  <text x="450" y="46" fill="#6E7681" font-size="13" text-anchor="middle">alex@github — ~/profile</text>
   <line x1="20" y1="68" x2="880" y2="68" stroke="#21262D" stroke-width="1"/>
 
   <!-- terminal body -->
@@ -34,6 +34,6 @@
     <text x="36" y="278" fill="#C9D1D9"><tspan fill="#3FB950">&#8250;</tspan><tspan dx="10" fill="#79C0FF">React</tspan><tspan fill="#8B949E"> · </tspan><tspan fill="#79C0FF">Express</tspan><tspan fill="#8B949E"> · </tspan><tspan fill="#79C0FF">Node</tspan><tspan fill="#8B949E"> · </tspan><tspan fill="#79C0FF">MongoDB</tspan><tspan fill="#8B949E"> · </tspan><tspan fill="#79C0FF">TypeScript</tspan><tspan fill="#8B949E"> · </tspan><tspan fill="#79C0FF">Docker</tspan></text>
 
     <text x="36" y="318"><tspan fill="#58A6FF">$</tspan><tspan fill="#8B949E" dx="10">status</tspan></text>
-    <text x="36" y="344" fill="#C9D1D9"><tspan fill="#3FB950">&#8250;</tspan><tspan dx="10">Building </tspan><tspan fill="#D2A8FF" font-weight="700">Strev</tspan><tspan> (MVP→prod)</tspan><tspan fill="#8B949E"> · open to Full-Stack / Backend roles</tspan><tspan fill="#58A6FF" dx="8">&#9608;</tspan></text>
+    <text x="36" y="348" fill="#C9D1D9"><tspan fill="#3FB950">&#8250;</tspan><tspan dx="10">Building </tspan><tspan fill="#D2A8FF" font-weight="700">Strev</tspan><tspan> (MVP→prod)</tspan><tspan fill="#8B949E"> · open to Full-Stack / Backend roles</tspan><tspan fill="#58A6FF" dx="8">&#9608;</tspan></text>
   </g>
 </svg>

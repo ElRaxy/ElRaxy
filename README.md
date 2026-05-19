@@ -4,9 +4,7 @@
 
 </div>
 
-> **Full-Stack / Backend engineer** (MERN + AI-assisted) — I ship production web products end to end. Open to roles · remote · Spain · available now.
-
-<sub><b>Strev:</b> live at <a href="https://strev.app">strev.app</a> · MERN monorepo · CI + E2E + Sentry in production.</sub>
+<sub><b>Open to Full-Stack / Backend roles</b> · remote · Spain · available now &nbsp;·&nbsp; <b>Strev</b> live at <a href="https://strev.app">strev.app</a> — MERN monorepo · CI + E2E + Sentry in production.</sub>
 
 ## Stack & Intelligence
 
