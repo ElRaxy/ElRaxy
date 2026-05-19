@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="900" height="132" viewBox="0 0 900 132" fill="none" xmlns="http://www.w3.org/2000/svg" font-family="'JetBrains Mono','SFMono-Regular',ui-monospace,Consolas,monospace">
+<svg width="900" height="138" viewBox="0 0 900 138" fill="none" xmlns="http://www.w3.org/2000/svg" font-family="'JetBrains Mono','SFMono-Regular',ui-monospace,Consolas,monospace">
   <defs>
     <linearGradient id="dpl" x1="0" y1="0" x2="900" y2="0" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#8957E5"/><stop offset="0.5" stop-color="#58A6FF"/><stop offset="1" stop-color="#1F6FEB"/>
     </linearGradient>
   </defs>
-  <rect x="1" y="1" width="898" height="130" rx="12" fill="#0D1117" stroke="#30363D" stroke-width="1.5"/>
+  <rect x="1" y="1" width="898" height="136" rx="12" fill="#0D1117" stroke="#30363D" stroke-width="1.5"/>
   <rect x="1" y="1" width="898" height="4" rx="2" fill="url(#dpl)"/>
   <text x="36" y="40" fill="#6E7681" font-size="13">deploy &amp; ops</text>
   <g font-size="12">

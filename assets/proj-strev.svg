@@ -7,9 +7,9 @@
   </defs>
   <rect x="1" y="1" width="458" height="198" rx="12" fill="#0D1117" stroke="#30363D" stroke-width="1.5"/>
   <rect x="1" y="1" width="458" height="4" rx="2" fill="url(#sg)"/>
-  <text x="24" y="30" fill="#7D8590" font-size="12">~/projects/strev</text>
+  <text x="24" y="30" fill="#6E7681" font-size="12">~/projects/strev</text>
   <text x="24" y="56" fill="#E6EDF3" font-size="22" font-weight="700">Strev</text>
-  <rect x="350" y="38" width="86" height="22" rx="11" fill="#0E2A14" stroke="#238636"/>
+  <rect x="350" y="38" width="86" height="22" rx="11" fill="#0E2A14" stroke="#3FB950"/>
   <text x="393" y="53" fill="#3FB950" font-size="12" text-anchor="middle">production</text>
   <text x="24" y="86" fill="#8B949E" font-size="13">Training SaaS — full control &amp; progressive overload.</text>
   <text x="24" y="108" fill="#8B949E" font-size="13">Athlete tracking · trainer 360º · AI video analysis.</text>
