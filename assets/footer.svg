@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="900" height="96" viewBox="0 0 900 96" fill="none" xmlns="http://www.w3.org/2000/svg" font-family="'JetBrains Mono','SFMono-Regular',ui-monospace,Consolas,monospace">
+  <defs>
+    <linearGradient id="ftr" x1="0" y1="0" x2="900" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#8957E5"/><stop offset="0.5" stop-color="#58A6FF"/><stop offset="1" stop-color="#1F6FEB"/>
+    </linearGradient>
+  </defs>
+  <rect x="1" y="1" width="898" height="94" rx="12" fill="#0D1117" stroke="#30363D" stroke-width="1.5"/>
+  <rect x="1" y="91" width="898" height="4" rx="2" fill="url(#ftr)"/>
+  <text x="36" y="40" font-size="15"><tspan fill="#58A6FF">$</tspan><tspan fill="#8B949E" dx="10">contact --list</tspan></text>
+  <text x="36" y="68" font-size="15"><tspan fill="#3FB950">&#8250;</tspan><tspan fill="#D2A8FF" dx="10">strev.app</tspan><tspan fill="#8B949E" dx="6"> · </tspan><tspan fill="#D2A8FF">github.com/ElRaxy</tspan><tspan fill="#8B949E" dx="6"> · </tspan><tspan fill="#D2A8FF">alexmico2006@gmail.com</tspan><tspan fill="#58A6FF" dx="8">&#9608;</tspan></text>
+</svg>

@@ -14,8 +14,8 @@
     <rect x="212" y="56" width="70" height="26" rx="6" fill="#161B22" stroke="#30363D"/><text x="247" y="73" fill="#79C0FF" text-anchor="middle">Netlify</text>
     <rect x="290" y="56" width="68" height="26" rx="6" fill="#161B22" stroke="#30363D"/><text x="324" y="73" fill="#79C0FF" text-anchor="middle">Docker</text>
     <rect x="366" y="56" width="120" height="26" rx="6" fill="#161B22" stroke="#30363D"/><text x="426" y="73" fill="#79C0FF" text-anchor="middle">GitHub Actions</text>
-    <rect x="494" y="56" width="136" height="26" rx="6" fill="#161B22" stroke="#30363D"/><text x="562" y="73" fill="#79C0FF" text-anchor="middle">Sentry / GlitchTip</text>
-    <rect x="638" y="56" width="102" height="26" rx="6" fill="#161B22" stroke="#30363D"/><text x="689" y="73" fill="#79C0FF" text-anchor="middle">BetterStack</text>
+    <rect x="494" y="56" width="150" height="26" rx="6" fill="#161B22" stroke="#30363D"/><text x="569" y="73" fill="#79C0FF" text-anchor="middle">Sentry / GlitchTip</text>
+    <rect x="652" y="56" width="102" height="26" rx="6" fill="#161B22" stroke="#30363D"/><text x="703" y="73" fill="#79C0FF" text-anchor="middle">BetterStack</text>
   </g>
   <text x="36" y="110" fill="#8B949E" font-size="12">CI/CD · observability · zero-downtime deploys across edge and container targets.</text>
 </svg>

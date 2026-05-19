@@ -4,13 +4,9 @@
 
 </div>
 
-## Approach
+> Full-Stack engineer (MERN + AI-assisted) shipping production web products end to end. **Open to Full-Stack / Backend roles — remote, Spain, available now.**
 
-> I build production web products end to end and reduce the friction between idea and deployment, pairing a modern **MERN** stack with **AI-assisted** engineering workflows.
-
-- **Focus:** robust, well-tested web applications.
-- **Current mission:** taking **[Strev](https://strev.app)** from MVP to production.
-- **Open to:** Full-Stack / Backend roles · remote · Spain.
+<sub><b>Strev:</b> live at <a href="https://strev.app">strev.app</a> · MERN monorepo · CI + E2E + Sentry in production.</sub>
 
 ## Stack & Intelligence
 
@@ -49,18 +45,12 @@
 
 <sub><b>Strev</b> is live at <a href="https://strev.app">strev.app</a> · other repos open progressively.</sub>
 
-## Looking For
-
-- **Role:** Full-Stack / Backend — MERN · TypeScript.
-- **Setup:** remote · Spain · available now.
-- **What I bring:** products shipped end to end, tests + CI + documented decisions (ADRs).
-
 ## Contact
 
 <div align="center">
 
-[![Strev](https://img.shields.io/badge/Strev-0D1117?style=for-the-badge&logo=vercel&logoColor=58A6FF)](https://strev.app)
-[![GitHub](https://img.shields.io/badge/GitHub-0D1117?style=for-the-badge&logo=github&logoColor=ffffff)](https://github.com/ElRaxy)
-[![Email](https://img.shields.io/badge/Email-0D1117?style=for-the-badge&logo=gmail&logoColor=EA4335)](mailto:alexmico2006@gmail.com)
+<img src="./assets/footer.svg" width="100%" alt="Contact"/>
+
+[strev.app](https://strev.app) &nbsp;·&nbsp; [github.com/ElRaxy](https://github.com/ElRaxy) &nbsp;·&nbsp; [alexmico2006@gmail.com](mailto:alexmico2006@gmail.com)
 
 </div>
