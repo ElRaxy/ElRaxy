@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="900" height="214" viewBox="0 0 900 214" fill="none" xmlns="http://www.w3.org/2000/svg" font-family="'JetBrains Mono','SFMono-Regular',ui-monospace,Consolas,monospace">
+  <defs>
+    <linearGradient id="stk" x1="0" y1="0" x2="900" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#1F6FEB"/><stop offset="0.55" stop-color="#58A6FF"/><stop offset="1" stop-color="#8957E5"/>
+    </linearGradient>
+  </defs>
+  <rect x="1" y="1" width="898" height="212" rx="12" fill="#0D1117" stroke="#30363D" stroke-width="1.5"/>
+  <rect x="1" y="1" width="898" height="4" rx="2" fill="url(#stk)"/>
+  <text x="36" y="40" fill="#6E7681" font-size="13">stack &amp; intelligence</text>
+  <line x1="450" y1="58" x2="450" y2="190" stroke="#21262D" stroke-width="1"/>
+
+  <!-- AI Development -->
+  <text x="36" y="78" fill="#E6EDF3" font-size="16" font-weight="700">AI Development</text>
+  <g font-size="12">
+    <rect x="36" y="98" width="104" height="26" rx="6" fill="#161B22" stroke="#30363D"/><text x="88" y="115" fill="#79C0FF" text-anchor="middle">Claude Code</text>
+    <rect x="148" y="98" width="82" height="26" rx="6" fill="#161B22" stroke="#30363D"/><text x="189" y="115" fill="#79C0FF" text-anchor="middle">LLM APIs</text>
+  </g>
+  <text x="36" y="160" fill="#8B949E" font-size="12">Accelerated delivery and complex logic</text>
+  <text x="36" y="178" fill="#8B949E" font-size="12">assisted by frontier models.</text>
+
+  <!-- Modern MERN -->
+  <text x="486" y="78" fill="#E6EDF3" font-size="16" font-weight="700">Modern MERN</text>
+  <g font-size="12">
+    <rect x="486" y="98" width="78" height="26" rx="6" fill="#161B22" stroke="#30363D"/><text x="525" y="115" fill="#79C0FF" text-anchor="middle">React 19</text>
+    <rect x="572" y="98" width="88" height="26" rx="6" fill="#161B22" stroke="#30363D"/><text x="616" y="115" fill="#79C0FF" text-anchor="middle">Express 5</text>
+    <rect x="668" y="98" width="56" height="26" rx="6" fill="#161B22" stroke="#30363D"/><text x="696" y="115" fill="#79C0FF" text-anchor="middle">Node</text>
+    <rect x="732" y="98" width="84" height="26" rx="6" fill="#161B22" stroke="#30363D"/><text x="774" y="115" fill="#79C0FF" text-anchor="middle">MongoDB</text>
+    <rect x="486" y="132" width="56" height="26" rx="6" fill="#161B22" stroke="#30363D"/><text x="514" y="149" fill="#79C0FF" text-anchor="middle">Vite</text>
+    <rect x="550" y="132" width="80" height="26" rx="6" fill="#161B22" stroke="#30363D"/><text x="590" y="149" fill="#79C0FF" text-anchor="middle">Tailwind</text>
+    <rect x="638" y="132" width="50" height="26" rx="6" fill="#161B22" stroke="#30363D"/><text x="663" y="149" fill="#79C0FF" text-anchor="middle">Zod</text>
+    <rect x="696" y="132" width="72" height="26" rx="6" fill="#161B22" stroke="#30363D"/><text x="732" y="149" fill="#79C0FF" text-anchor="middle">Docker</text>
+  </g>
+  <text x="486" y="186" fill="#8B949E" font-size="12">TypeScript-first · tested · production-shipped.</text>
+</svg>

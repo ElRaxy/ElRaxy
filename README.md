@@ -14,33 +14,11 @@
 
 ## Stack & Intelligence
 
-<table>
-<tr>
-<td width="50%" valign="top">
-<h3>AI Development</h3>
-<p>
-<img src="https://img.shields.io/badge/Claude_Code-0D1117?style=flat-square&logo=anthropic&logoColor=8957E5"/>
-<img src="https://img.shields.io/badge/LLM_APIs-0D1117?style=flat-square&logo=openai&logoColor=58A6FF"/>
-</p>
-<p><sub>Accelerated delivery and complex logic assisted by frontier models.</sub></p>
-</td>
-<td width="50%" valign="top">
-<h3>Modern MERN</h3>
-<p>
-<img src="https://img.shields.io/badge/React_19-0D1117?style=flat-square&logo=react&logoColor=61DAFB"/>
-<img src="https://img.shields.io/badge/Express_5-0D1117?style=flat-square&logo=express&logoColor=ffffff"/>
-<img src="https://img.shields.io/badge/Node-0D1117?style=flat-square&logo=nodedotjs&logoColor=339933"/>
-<img src="https://img.shields.io/badge/MongoDB-0D1117?style=flat-square&logo=mongodb&logoColor=47A248"/>
-</p>
-<p>
-<img src="https://img.shields.io/badge/Vite-0D1117?style=flat-square&logo=vite&logoColor=646CFF"/>
-<img src="https://img.shields.io/badge/Tailwind-0D1117?style=flat-square&logo=tailwindcss&logoColor=06B6D4"/>
-<img src="https://img.shields.io/badge/Zod-0D1117?style=flat-square&logo=zod&logoColor=3E67B1"/>
-<img src="https://img.shields.io/badge/Docker-0D1117?style=flat-square&logo=docker&logoColor=2496ED"/>
-</p>
-</td>
-</tr>
-</table>
+<div align="center">
+
+<img src="./assets/stack.svg" width="100%" alt="Stack: AI Development (Claude Code, LLM APIs) and Modern MERN (React 19, Express 5, Node, MongoDB, Vite, Tailwind, Zod, Docker)"/>
+
+</div>
 
 ## How I Build
 
@@ -50,17 +28,11 @@
 - **TDD + two-layer verification:** automated tests plus end-to-end before anything is called done.
 - **Conventional Commits** and systematic code review.
 
-**Deploy & Ops**
+<div align="center">
 
-<p>
-<img src="https://img.shields.io/badge/Cloudflare-0D1117?style=flat-square&logo=cloudflare&logoColor=F38020"/>
-<img src="https://img.shields.io/badge/Render-0D1117?style=flat-square&logo=render&logoColor=ffffff"/>
-<img src="https://img.shields.io/badge/Netlify-0D1117?style=flat-square&logo=netlify&logoColor=00C7B7"/>
-<img src="https://img.shields.io/badge/Docker-0D1117?style=flat-square&logo=docker&logoColor=2496ED"/>
-<img src="https://img.shields.io/badge/GitHub_Actions-0D1117?style=flat-square&logo=githubactions&logoColor=2088FF"/>
-<img src="https://img.shields.io/badge/Sentry_·_GlitchTip-0D1117?style=flat-square&logo=sentry&logoColor=B36DF2"/>
-</p>
-<sub>CI/CD, observability and deploys: Cloudflare Pages/Workers/R2 · Render · Netlify · Docker · GitHub Actions · Sentry/GlitchTip + BetterStack.</sub>
+<img src="./assets/deploy.svg" width="100%" alt="Deploy and Ops: Cloudflare, Render, Netlify, Docker, GitHub Actions, Sentry/GlitchTip, BetterStack"/>
+
+</div>
 
 ## Projects
 
@@ -77,13 +49,11 @@
 
 <sub><b>Strev</b> is live at <a href="https://strev.app">strev.app</a> · other repos open progressively.</sub>
 
-## Activity
+## Looking For
 
-<div align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=ElRaxy&bg_color=0d1117&color=58A6FF&line=8957E5&point=ffffff&hide_border=true&area=true" width="100%" alt="Contribution activity"/>
-
-</div>
+- **Role:** Full-Stack / Backend — MERN · TypeScript.
+- **Setup:** remote · Spain · available now.
+- **What I bring:** products shipped end to end, tests + CI + documented decisions (ADRs).
 
 ## Contact
 

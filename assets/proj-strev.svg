@@ -8,8 +8,8 @@
   <rect x="1" y="1" width="458" height="198" rx="12" fill="#0D1117" stroke="#30363D" stroke-width="1.5"/>
   <rect x="1" y="1" width="458" height="4" rx="2" fill="url(#sg)"/>
   <text x="24" y="44" fill="#E6EDF3" font-size="22" font-weight="700">Strev</text>
-  <rect x="356" y="28" width="80" height="22" rx="11" fill="#0E2A14" stroke="#238636"/>
-  <text x="396" y="43" fill="#3FB950" font-size="12" text-anchor="middle">production</text>
+  <rect x="350" y="28" width="86" height="22" rx="11" fill="#0E2A14" stroke="#238636"/>
+  <text x="393" y="43" fill="#3FB950" font-size="12" text-anchor="middle">production</text>
   <text x="24" y="76" fill="#8B949E" font-size="13">Training SaaS — full control &amp; progressive overload.</text>
   <text x="24" y="98" fill="#8B949E" font-size="13">Athlete tracking · trainer 360º · AI video analysis.</text>
   <g font-size="11">
