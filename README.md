@@ -1,90 +1,72 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,50:1F6FEB,100:8957E5&height=210&section=header&text=Alex%20Mic%C3%B3%20Robles&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Full-Stack%20Engineer%20%C2%B7%20MERN%20%C2%B7%20AI-assisted%20delivery&descSize=18&descAlignY=60" width="100%" alt="header"/>
+# Alex Micó Robles
+
+**Full-Stack Engineer — MERN · AI-assisted delivery**
 
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com/?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=800&color=58A6FF&center=true&vCenter=true&width=620&lines=Full-Stack+Engineer+%E2%80%94+MERN;Shipping+products+with+AI-assisted+workflows;Building+Strev+from+MVP+to+production)](https://github.com/ElRaxy)
-
-[![Strev](https://img.shields.io/badge/Strev-0D1117?style=for-the-badge&logo=vercel&logoColor=58A6FF)](https://strev.app)
-[![GitHub](https://img.shields.io/badge/GitHub-0D1117?style=for-the-badge&logo=github&logoColor=ffffff)](https://github.com/ElRaxy)
-[![Email](https://img.shields.io/badge/Email-0D1117?style=for-the-badge&logo=gmail&logoColor=EA4335)](mailto:alexmico2006@gmail.com)
+[![Typing SVG](https://readme-typing-svg.demolab.com/?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=900&color=58A6FF&center=true&vCenter=true&width=620&lines=Full-Stack+Engineer+%E2%80%94+MERN;Shipping+with+AI-assisted+workflows;Building+Strev+from+MVP+to+production)](https://strev.app)
 
 </div>
 
 ---
 
-### About
+## ⚡ El Enfoque
 
-- **EN** — Full-Stack Engineer (MERN). I build production web products end to end and ship fast pairing a modern stack with AI-assisted engineering workflows.
-- **ES** — Ingeniero Full-Stack (MERN). Construyo productos web de principio a fin y entrego rápido combinando un stack moderno con flujos de ingeniería asistidos por IA.
-- **Currently** — Taking **[Strev](https://strev.app)** from MVP to production · open-sourcing the dev tools I use daily.
-- **Open to** — Full-Stack / Backend roles · remote · Spain.
+> Construyo software web de principio a fin y reduzco la fricción entre la idea y el despliegue, combinando el stack **MERN** con flujos de ingeniería asistidos por **IA**.
+>
+> *I build production web products end to end and ship fast, pairing a modern MERN stack with AI-assisted engineering.*
 
----
-
-### Tech
-
-[![Skills](https://skillicons.dev/icons?i=ts,js,nodejs,react,vite,express,mongodb,tailwind,docker,cloudflare,git,python&theme=dark)](https://skillicons.dev)
+- **Foco:** aplicaciones web robustas y bien testeadas.
+- **Misión actual:** llevar **[Strev](https://strev.app)** de MVP a producción.
+- **Abierto a:** roles Full-Stack / Backend · remoto · España.
 
 ---
 
-### Featured Projects
+## 🛠️ Stack & Intelligence
 
 <table>
 <tr>
 <td width="50%" valign="top">
-<h3 align="center">Strev</h3>
-<div align="center">
+<h3>AI Development</h3>
 <p>
-<a href="https://strev.app"><img src="https://img.shields.io/badge/Live-1F6FEB?style=for-the-badge&logo=vercel&logoColor=white"/></a>
-<img src="https://img.shields.io/badge/production%20·%20beta-238636?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Claude_Code-0D1117?style=flat-square&logo=anthropic&logoColor=8957E5"/>
+<img src="https://img.shields.io/badge/LLM_APIs-0D1117?style=flat-square&logo=openai&logoColor=58A6FF"/>
 </p>
-<p>Progressive-overload training SaaS. Athlete tracking, trainer 360º command center, XP/levels/PR gamification, AI video analysis.<br/>
-<sub><b>Stack:</b> React 19 · Express 5 · MongoDB · Zod · Stripe · Cloudflare</sub></p>
-</div>
+<p><sub>Desarrollo acelerado y lógica compleja asistida por modelos de vanguardia.</sub></p>
 </td>
 <td width="50%" valign="top">
-<h3 align="center">Agora AI</h3>
-<div align="center">
+<h3>Modern MERN</h3>
 <p>
-<img src="https://img.shields.io/badge/desktop%20app-0D1117?style=for-the-badge&logo=electron&logoColor=9FEAF9"/>
-<img src="https://img.shields.io/badge/WIP-8957E5?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/React_19-0D1117?style=flat-square&logo=react&logoColor=61DAFB"/>
+<img src="https://img.shields.io/badge/Express_5-0D1117?style=flat-square&logo=express&logoColor=ffffff"/>
+<img src="https://img.shields.io/badge/Node-0D1117?style=flat-square&logo=nodedotjs&logoColor=339933"/>
+<img src="https://img.shields.io/badge/MongoDB-0D1117?style=flat-square&logo=mongodb&logoColor=47A248"/>
 </p>
-<p>Multi-LLM orchestration cockpit — query and compare several models side by side from one local dashboard.<br/>
-<sub><b>Stack:</b> Electron · React · multi-provider LLM</sub></p>
-</div>
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-<h3 align="center">Atalaya</h3>
-<div align="center">
 <p>
-<img src="https://img.shields.io/badge/CLI-0D1117?style=for-the-badge&logo=gnubash&logoColor=white"/>
-<img src="https://img.shields.io/badge/WIP-8957E5?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Vite-0D1117?style=flat-square&logo=vite&logoColor=646CFF"/>
+<img src="https://img.shields.io/badge/Tailwind-0D1117?style=flat-square&logo=tailwindcss&logoColor=06B6D4"/>
+<img src="https://img.shields.io/badge/Zod-0D1117?style=flat-square&logo=zod&logoColor=3E67B1"/>
+<img src="https://img.shields.io/badge/Docker-0D1117?style=flat-square&logo=docker&logoColor=2496ED"/>
 </p>
-<p>AI-powered job aggregator. Pulls and ranks dev offers from multiple sources into one feed (<code>bhound</code> binary).<br/>
-<sub><b>Stack:</b> Python · LLM ranking</sub></p>
-</div>
-</td>
-<td width="50%" valign="top">
-<h3 align="center">Social Publisher <sub><i>(renaming)</i></sub></h3>
-<div align="center">
-<p>
-<img src="https://img.shields.io/badge/tool-0D1117?style=for-the-badge&logo=buffer&logoColor=white"/>
-<img src="https://img.shields.io/badge/WIP-8957E5?style=for-the-badge"/>
-</p>
-<p>Unifies posting across social networks from one place — AI-drafted copy, preview, schedule, multi-account.<br/>
-<sub><b>Stack:</b> Node · React · n8n · Gemini</sub></p>
-</div>
 </td>
 </tr>
 </table>
 
-<div align="center"><sub>Repos open progressively · <a href="https://strev.app">Strev is live</a></sub></div>
+---
+
+## 🏗️ Proyecto destacado: Strev
+
+**SaaS de entrenamiento — control total y sobrecarga progresiva.** · [strev.app](https://strev.app) · `producción · beta`
+
+- **Atleta:** trackeo preciso de cargas y técnica para sobrecarga progresiva real, con métricas y análisis de vídeo por IA.
+- **Entrenador (360º):** central de mando para gestionar la progresión propia y la de todos los clientes.
+- **Social:** sistema de XP, niveles y PRs para gamificar el rendimiento.
+
+<sub><b>Stack:</b> React 19 · Express 5 · MongoDB · Zod · Stripe · Cloudflare</sub>
 
 ---
 
-### GitHub
+## 📈 Actividad
 
 <div align="center">
 
@@ -92,4 +74,14 @@
 
 </div>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:8957E5,50:1F6FEB,100:0D1117&height=120&section=footer&reversal=true" width="100%" alt="footer"/>
+---
+
+## 📬 Contacto
+
+<div align="center">
+
+[![Strev](https://img.shields.io/badge/Strev-0D1117?style=for-the-badge&logo=vercel&logoColor=58A6FF)](https://strev.app)
+[![GitHub](https://img.shields.io/badge/GitHub-0D1117?style=for-the-badge&logo=github&logoColor=ffffff)](https://github.com/ElRaxy)
+[![Email](https://img.shields.io/badge/Email-0D1117?style=for-the-badge&logo=gmail&logoColor=EA4335)](mailto:alexmico2006@gmail.com)
+
+</div>
