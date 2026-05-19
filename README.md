@@ -54,6 +54,28 @@
 
 ---
 
+## 🧭 Cómo construyo
+
+- **Spec-Driven Development (SDD):** especificación y criterios de aceptación (notación EARS) antes de escribir código.
+- **Harness Engineering** *(ingeniería de arneses):* orquestación multi-agente — subagentes en paralelo que escriben a archivo, sin degradar contexto.
+- **Arquitectura dirigida por ADRs:** cada decisión técnica documentada y enlazada.
+- **TDD + verificación en dos capas:** tests automáticos + E2E antes de declarar nada terminado.
+- **Conventional Commits** y revisión de código sistemática.
+
+**Deploy & Ops**
+
+<p>
+<img src="https://img.shields.io/badge/Cloudflare-0D1117?style=flat-square&logo=cloudflare&logoColor=F38020"/>
+<img src="https://img.shields.io/badge/Render-0D1117?style=flat-square&logo=render&logoColor=ffffff"/>
+<img src="https://img.shields.io/badge/Netlify-0D1117?style=flat-square&logo=netlify&logoColor=00C7B7"/>
+<img src="https://img.shields.io/badge/Docker-0D1117?style=flat-square&logo=docker&logoColor=2496ED"/>
+<img src="https://img.shields.io/badge/GitHub_Actions-0D1117?style=flat-square&logo=githubactions&logoColor=2088FF"/>
+<img src="https://img.shields.io/badge/Sentry_·_GlitchTip-0D1117?style=flat-square&logo=sentry&logoColor=B36DF2"/>
+</p>
+<sub>CI/CD, observabilidad y deploys: Cloudflare Pages/Workers/R2 · Render · Netlify · Docker · GitHub Actions · Sentry/GlitchTip + BetterStack.</sub>
+
+---
+
 ## 🏗️ Proyecto destacado: Strev
 
 **SaaS de entrenamiento — control total y sobrecarga progresiva.** · [strev.app](https://strev.app) · `producción · beta`
