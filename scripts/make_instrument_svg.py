@@ -105,8 +105,8 @@ def build(theme: str, facts: dict) -> str:
     core = (
         f'<g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.9s" dur="0.6s" fill="freeze"/>'
         f'<text x="{CX}" y="{CY - 34}" fill="{c["dim"]}" font-size="9.5" letter-spacing="2.4" text-anchor="middle">{w["agents"]} AGENTS</text>'
-        f'<text x="{CX}" y="{CY + 2}" fill="{c["ink"]}" font-size="34" font-weight="700" text-anchor="middle">{w["commits"]:,}</text>'
-        f'<text x="{CX}" y="{CY + 22}" fill="{c["dim"]}" font-size="9.5" letter-spacing="2.4" text-anchor="middle">COMMITS</text></g>'
+        f'<text x="{CX}" y="{CY + 2}" fill="{c["ink"]}" font-size="34" font-weight="700" text-anchor="middle">{w["skills"]}</text>'
+        f'<text x="{CX}" y="{CY + 22}" fill="{c["dim"]}" font-size="9.5" letter-spacing="2.4" text-anchor="middle">SKILLS</text></g>'
     )
 
     lx, rx = m + 26, W - m - 26 - READ_W
