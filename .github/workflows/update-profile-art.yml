@@ -1,9 +1,8 @@
 name: update profile art
 
-# Solo el heatmap se regenera solo: es lo unico que cambia a diario.
-# El retrato y la tarjeta se rehacen a mano con scripts/ cuando cambia la foto
-# o el contenido, y por eso sus dependencias (pillow, numpy, opencv) no se
-# instalan aqui.
+# Refresca las piezas cuyos datos cambian: el panel (fecha, sondas de endpoint,
+# commits del ano) y el heatmap. Los hechos que no se pueden medir desde aqui
+# —el tamano de la flota— viven en data/facts.json y se actualizan a mano.
 
 on:
   schedule:
@@ -36,14 +35,17 @@ jobs:
       - name: Render heatmap
         run: python scripts/render_heatmap_svg.py
 
+      - name: Render instrument
+        run: python scripts/make_instrument_svg.py
+
       - name: Commit if changed
         run: |
-          if git diff --quiet -- contrib-heatmap.svg data/contributions.json; then
+          if git diff --quiet -- contrib-heatmap.svg instrument-dark.svg instrument-light.svg data/contributions.json; then
             echo "sin cambios"
             exit 0
           fi
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add contrib-heatmap.svg data/contributions.json
-          git commit -m "chore(heatmap): refresco diario"
+          git add contrib-heatmap.svg instrument-dark.svg instrument-light.svg data/contributions.json
+          git commit -m "chore(profile): refresco diario del panel"
           git push

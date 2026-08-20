@@ -1,0 +1,21 @@
+{
+  "_comment": "Hechos que no se pueden medir desde este repo. Cada uno con su procedencia y su fecha: si un numero no se puede trazar, no entra en el panel.",
+  "fleet": {
+    "servers": 8,
+    "vhosts": 995,
+    "wordpress": 994,
+    "measured_at": "2026-08-11",
+    "source": "auditoria read-only de la flota Anuubis"
+  },
+  "endpoints": [
+    {
+      "label": "ANUUBIS",
+      "url": "https://www.anubis.es"
+    }
+  ],
+  "identity": {
+    "code": "AM/F-01",
+    "system": "BUILD & OPERATIONS",
+    "name": "ALEX MICÓ"
+  }
+}
