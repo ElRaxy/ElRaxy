@@ -1,8 +1,0 @@
-# El cron diario solo necesita estas dos (heatmap):
-requests==2.34.2
-beautifulsoup4==4.15.0
-
-# Solo para regenerar el retrato ASCII a mano, cuando cambia la foto:
-pillow==12.3.0
-numpy==2.5.2
-opencv-python-headless==5.0.0
