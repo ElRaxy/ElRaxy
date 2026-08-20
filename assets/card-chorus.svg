@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="460" height="210" viewBox="0 0 460 210"
+     role="img" font-family="'JetBrains Mono','SFMono-Regular',ui-monospace,Menlo,Consolas,monospace">
+  <title>chorus</title>
+  <defs><linearGradient id="g" x1="0" y1="0" x2="460" y2="0" gradientUnits="userSpaceOnUse">
+    <stop offset="0" stop-color="#8957E5"/><stop offset="1" stop-color="#D2A8FF"/></linearGradient></defs>
+  <rect x="1" y="1" width="458" height="208" rx="12" fill="#0D1117" stroke="#30363D" stroke-width="1.5"/>
+  <rect x="1" y="1" width="458" height="4" rx="2" fill="url(#g)"/>
+  <text x="24" y="32" fill="#6E7681" font-size="11.5">~/projects/chorus</text>
+  <text x="24" y="62" fill="#E6EDF3" font-size="21" font-weight="700">chorus</text>
+  <rect x="343" y="44" width="93" height="22" rx="11" fill="#1C1230" stroke="#D2A8FF"/>
+  <text x="390" y="59" fill="#D2A8FF" font-size="11" text-anchor="middle">open source</text>
+  <text x="24" y="92" fill="#8B949E" font-size="12.5">Multi-LLM peer review for code decisions.</text><text x="24" y="113" fill="#8B949E" font-size="12.5">Bring your own CLI; 2-4 models review the work.</text>
+  <rect x="24" y="142" width="80" height="22" rx="6" fill="#161B22" stroke="#30363D"/><text x="64" y="157" fill="#79C0FF" font-size="11" text-anchor="middle">TypeScript</text><rect x="112" y="142" width="31" height="22" rx="6" fill="#161B22" stroke="#30363D"/><text x="128" y="157" fill="#79C0FF" font-size="11" text-anchor="middle">CLI</text>
+  <text x="24" y="188" font-size="12.5"><tspan fill="#58A6FF">$</tspan><tspan fill="#C9D1D9" dx="8">gh repo view</tspan><tspan fill="#D2A8FF" dx="8">ElRaxy/chorus</tspan></text>
+</svg>

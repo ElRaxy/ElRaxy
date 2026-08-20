@@ -1,67 +1,65 @@
 <div align="center">
 
-<img src="./assets/hero.svg" width="100%" alt="Alex Micó Robles — Full-Stack Engineer (MERN)"/>
+<h3><code>alex@github ~ $ ./contributions.sh</code></h3>
+
+<img src="./contrib-heatmap.svg" width="860" alt="Contribution heatmap, refreshed daily by GitHub Actions"/>
+
+<br><br>
+
+<h3><code>alex@github ~ $ whoami</code></h3>
+
+<table>
+<tr>
+<td valign="top"><img src="./ascii-portrait.svg" width="330" alt="ASCII portrait of Alex Mico"/></td>
+<td valign="top"><img src="./info-card.svg" width="520" alt="Role, current work, method and stack"/></td>
+</tr>
+</table>
 
 </div>
 
-**Open to Full-Stack / Backend roles** — remote · Spain · available now
+## What I'm building
 
-Strev — live at [strev.app](https://strev.app) · MERN monorepo · CI + E2E + Sentry in production.
+<table>
+<tr>
+<td width="50%"><a href="https://strev.app"><img src="./assets/card-strev.svg" width="100%" alt="Strev"/></a></td>
+<td width="50%"><img src="./assets/card-vanguardia.svg" width="100%" alt="VanguardIA"/></td>
+</tr>
+<tr>
+<td width="50%"><img src="./assets/card-fleet.svg" width="100%" alt="Fleet Ops"/></td>
+<td width="50%"><a href="https://github.com/ElRaxy/chorus"><img src="./assets/card-chorus.svg" width="100%" alt="chorus"/></a></td>
+</tr>
+</table>
 
-## Stack & Intelligence
+Strev and chorus are open to look at. VanguardIA and the fleet work are private, so
+the cards above are the shape of them, not the code.
 
-<div align="center">
-
-<img src="./assets/stack.svg" width="100%" alt="Stack: AI Development (Claude Code, LLM APIs) and Modern MERN (React 19, Express 5, Node, MongoDB, Vite, Tailwind, Zod, Docker)"/>
-
-</div>
-
-**Modern MERN** — React 19 · Express 5 · Node · MongoDB · TypeScript · Vite · Tailwind · Zod · Docker
-**AI Development** — Claude Code · LLM APIs (accelerated delivery, complex logic with frontier models)
-
-## How I Build
-
-- **Spec-Driven Development (SDD):** specification and acceptance criteria (EARS notation) before writing code.
-- **Harness Engineering:** multi-agent orchestration — parallel subagents write to files, keeping context clean.
-- **ADR-driven architecture:** every technical decision documented and linked.
-- **TDD + two-layer verification:** automated tests plus end-to-end before anything is called done.
-- **Conventional Commits** and systematic code review.
-
-<div align="center">
-
-<img src="./assets/deploy.svg" width="100%" alt="Deploy and Ops: Cloudflare, Render, Netlify, Docker, GitHub Actions, Sentry/GlitchTip, BetterStack"/>
-
-</div>
-
-**Deploy & Ops** — Cloudflare · Render · Netlify · Docker · GitHub Actions · Sentry/GlitchTip · BetterStack · CI/CD · observability
-
-## Projects
+- **[Strev](https://strev.app)** — live, in beta.
+- **[chorus](https://github.com/ElRaxy/chorus)** — public repo, bring your own CLI.
+- **VanguardIA** and **Fleet Ops** — private.
 
 ### Featured — Strev
 
 <div align="center">
-
-<a href="https://strev.app"><img src="./assets/strev-live.png" width="100%" alt="Strev — live at strev.app"/></a>
-
+<a href="https://strev.app"><img src="./assets/strev-live.png" width="100%" alt="Strev, live at strev.app"/></a>
 </div>
 
-<table>
-<tr>
-<td width="50%"><a href="https://strev.app"><img src="./assets/proj-strev.svg" width="100%" alt="Strev"/></a></td>
-<td width="50%"><a href="https://github.com/ElRaxy"><img src="./assets/proj-agora.svg" width="100%" alt="Agora AI"/></a></td>
-</tr>
-<tr>
-<td width="50%"><a href="https://github.com/ElRaxy"><img src="./assets/proj-atalaya.svg" width="100%" alt="Atalaya"/></a></td>
-<td width="50%"><a href="https://github.com/ElRaxy"><img src="./assets/proj-social.svg" width="100%" alt="Social Publisher"/></a></td>
-</tr>
-</table>
+## How I work
 
-- **[Strev](https://strev.app)** — training SaaS, progressive overload (athlete + trainer 360º + AI video). *Production · beta.* `React 19 · Express 5 · MongoDB · Zod · Stripe`
-- **Agora AI** — multi-LLM orchestration cockpit; compare models side by side, locally. *WIP.* `Electron · React`
-- **Atalaya** — AI job aggregator that ranks dev offers into one feed (`bhound`). *WIP.* `Python`
-- **Social Publisher** *(renaming)* — unified social posting with AI-drafted copy. *WIP.* `Node · React · n8n · Gemini`
+- **Specs first.** Acceptance criteria in EARS notation before the first line of code, so "done" is something you can check instead of argue about.
+- **Agents in the loop, not in charge.** Parallel subagents write their output to files; I keep the architecture, the boundaries and the final call.
+- **Two layers of verification.** Automated tests, then the real thing in a real browser. A green test suite is not a shipped feature.
+- **Decisions get written down.** ADRs and runbooks, so the reasoning survives the session that produced it.
+- **Small diffs, conventional commits, no drive-by refactors.**
 
-<sub>Other repos open progressively.</sub>
+## Stack
+
+<div align="center">
+
+<img src="./assets/stack.svg" width="100%" alt="Stack: AI development and modern MERN"/>
+
+<img src="./assets/deploy.svg" width="100%" alt="Deploy and ops"/>
+
+</div>
 
 ## Contact
 
@@ -69,6 +67,8 @@ Strev — live at [strev.app](https://strev.app) · MERN monorepo · CI + E2E + 
 
 <img src="./assets/footer.svg" width="100%" alt="Contact"/>
 
-[strev.app](https://strev.app) &nbsp;·&nbsp; [github.com/ElRaxy](https://github.com/ElRaxy) &nbsp;·&nbsp; [alexmico2006@gmail.com](mailto:alexmico2006@gmail.com)
+[anubis.es](https://www.anubis.es) &nbsp;·&nbsp; [strev.app](https://strev.app) &nbsp;·&nbsp; [alexmico2006@gmail.com](mailto:alexmico2006@gmail.com)
 
 </div>
+
+<sub>The heatmap regenerates itself every day (<a href="./.github/workflows/update-profile-art.yml">workflow</a>). The portrait and the card are rebuilt by hand from <code>scripts/</code> when something changes.</sub>

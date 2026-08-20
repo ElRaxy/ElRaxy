@@ -1,0 +1,49 @@
+name: update profile art
+
+# Solo el heatmap se regenera solo: es lo unico que cambia a diario.
+# El retrato y la tarjeta se rehacen a mano con scripts/ cuando cambia la foto
+# o el contenido, y por eso sus dependencias (pillow, numpy, opencv) no se
+# instalan aqui.
+
+on:
+  schedule:
+    - cron: "17 4 * * *"   # 04:17 UTC — despues del corte de dia de GitHub
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-art
+  cancel-in-progress: false
+
+jobs:
+  heatmap:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install deps
+        run: pip install requests==2.34.2 beautifulsoup4==4.15.0
+
+      - name: Fetch contributions
+        run: python scripts/fetch_contributions.py
+
+      - name: Render heatmap
+        run: python scripts/render_heatmap_svg.py
+
+      - name: Commit if changed
+        run: |
+          if git diff --quiet -- contrib-heatmap.svg data/contributions.json; then
+            echo "sin cambios"
+            exit 0
+          fi
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add contrib-heatmap.svg data/contributions.json
+          git commit -m "chore(heatmap): refresco diario"
+          git push

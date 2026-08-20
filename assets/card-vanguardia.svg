@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="460" height="210" viewBox="0 0 460 210"
+     role="img" font-family="'JetBrains Mono','SFMono-Regular',ui-monospace,Menlo,Consolas,monospace">
+  <title>VanguardIA</title>
+  <defs><linearGradient id="g" x1="0" y1="0" x2="460" y2="0" gradientUnits="userSpaceOnUse">
+    <stop offset="0" stop-color="#8957E5"/><stop offset="1" stop-color="#58A6FF"/></linearGradient></defs>
+  <rect x="1" y="1" width="458" height="208" rx="12" fill="#0D1117" stroke="#30363D" stroke-width="1.5"/>
+  <rect x="1" y="1" width="458" height="4" rx="2" fill="url(#g)"/>
+  <text x="24" y="32" fill="#6E7681" font-size="11.5">~/projects/vanguardia</text>
+  <text x="24" y="62" fill="#E6EDF3" font-size="21" font-weight="700">VanguardIA</text>
+  <rect x="371" y="44" width="65" height="22" rx="11" fill="#1C1230" stroke="#8957E5"/>
+  <text x="404" y="59" fill="#8957E5" font-size="11" text-anchor="middle">private</text>
+  <text x="24" y="92" fill="#8B949E" font-size="12.5">My software factory: specs first, subagents that</text><text x="24" y="113" fill="#8B949E" font-size="12.5">write to files, nothing done until verified.</text>
+  <rect x="24" y="142" width="87" height="22" rx="6" fill="#161B22" stroke="#30363D"/><text x="68" y="157" fill="#79C0FF" font-size="11" text-anchor="middle">Claude Code</text><rect x="119" y="142" width="52" height="22" rx="6" fill="#161B22" stroke="#30363D"/><text x="145" y="157" fill="#79C0FF" font-size="11" text-anchor="middle">Python</text><rect x="179" y="142" width="38" height="22" rx="6" fill="#161B22" stroke="#30363D"/><text x="198" y="157" fill="#79C0FF" font-size="11" text-anchor="middle">Node</text><rect x="225" y="142" width="31" height="22" rx="6" fill="#161B22" stroke="#30363D"/><text x="240" y="157" fill="#79C0FF" font-size="11" text-anchor="middle">MCP</text>
+  <text x="24" y="188" font-size="12.5"><tspan fill="#58A6FF">$</tspan><tspan fill="#C9D1D9" dx="8">run</tspan><tspan fill="#D2A8FF" dx="8">harness --spec</tspan></text>
+</svg>
