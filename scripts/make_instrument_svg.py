@@ -110,8 +110,8 @@ def build(theme: str, facts: dict) -> str:
     )
 
     lx, rx = m + 26, W - m - 26 - READ_W
-    left = (reading(lx, 138, "SKILLS", f'{w["skills"]}', c, 2.0)
-            + reading(lx, 202, "COMMANDS", f'{w["commands"]}', c, 2.1))
+    left = (reading(lx, 138, "COMMANDS", f'{w["commands"]}', c, 2.0)
+            + reading(lx, 202, "RULES", f'{w["rules"]}', c, 2.1))
     right = (reading(rx, 138, "ADRS", f'{w["adrs"]}', c, 2.2)
              + reading(rx, 202, "RUNBOOKS", f'{w["runbooks"]}', c, 2.3))
 
@@ -134,7 +134,7 @@ def build(theme: str, facts: dict) -> str:
 <svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}"
      role="img" font-family="{FONT}">
   <title>{escape(ident["name"])} — {escape(ident["system"])}</title>
-  <desc>{w["commits"]:,} commits since {w["since"]}. {w["skills"]} skills, {w["agents"]} agents, {w["adrs"]} ADRs, {w["runbooks"]} runbooks.</desc>
+  <desc>{w["skills"]} skills, {w["agents"]} agents, {w["commands"]} commands, {w["adrs"]} ADRs, {w["runbooks"]} runbooks.</desc>
   <rect width="{W}" height="{H}" rx="10" fill="{c["bg"]}"/>
   {brackets}{ticks}
   {ring}{nodes}{core}
