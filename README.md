@@ -1,11 +1,15 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./instrument-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./instrument-light.svg">
-  <img src="./instrument-dark.svg" alt="AM/W-01 — 84 skills, 13 agents, 121 ADRs, 116 runbooks" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="./panel-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./panel-light.svg">
+  <img src="./panel-dark.svg" alt="How a change gets shipped: spec, plan, build, review, verify, ship" width="100%">
 </picture>
 
-I am **Alex Micó**. I build software and then I run it, which is the part that teaches you what you actually built.
+I am **Alex Micó**. I build software with agents and then I run it in production, which is the part that teaches you what you actually built.
 
-- **VanguardIA**, my own harness for building with agents. Specs before code, subagents that write to files instead of flooding the context, and a verification gate that has to pass before anything counts as done. Private for now; the panel above counts what is in it.
-- Currently at Anuubis Solutions, keeping a fleet of servers and sites alive.
-- Reach me at [alexmico2006@gmail.com](mailto:alexmico2006@gmail.com).
+The diagram is not a slogan. It is the pipeline I work in every day: acceptance criteria before code, the blast radius written down before touching a file, subagents that hand their work over as files instead of flooding the context, and two gates that can send a change back — a review budget of three tries, and a verification pass that is not satisfied by a green test suite alone.
+
+**Day to day** I keep a fleet of servers and close to a thousand sites running at Anuubis Solutions: deploys, migrations, audits, incidents. Most of it scripted, because doing it by hand at that size is how sites go down.
+
+**On my own time** I build the harness above, plus the tooling around it. It is private for now, and the count under the diagram is what is currently inside it.
+
+Most of my work happens in private repositories, so this profile is thin on purpose. If you want to see how any of it actually works, write to me and I will walk you through it: [alexmico2006@gmail.com](mailto:alexmico2006@gmail.com).
