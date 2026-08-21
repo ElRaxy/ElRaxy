@@ -1,6 +1,6 @@
 Full stack developer in Alicante, Spain. React, Node and MongoDB, and Python whenever something repetitive needs automating.
 
-At Anuubis Solutions I keep web infrastructure running in production: deploys, migrations between providers, performance audits, incidents at hours nobody wants. Nearly all of it scripted, because doing it by hand is where things break. Off the clock I build the harness I work in: specs before code, subagents that hand their work over as files, and a gate that has to pass before I call anything done.
+At Anuubis Solutions I keep web infrastructure running in production: deploys, migrations between providers, performance audits, incidents at hours nobody wants. Nearly all of it scripted, because doing it by hand is where things break.
 
 Open to full stack roles in Spain and the EU.  
 [Portfolio](https://portfolioalex-mico.vercel.app) · [alexmico2006@gmail.com](mailto:alexmico2006@gmail.com)
@@ -18,6 +18,9 @@ Every bank exports its statements its own way. This reads them anyway: finds the
 
 **[Strev](https://strev.app)** · MERN, closed source  
 Fitness SaaS for freelance personal trainers, in private beta. 115 endpoints across 26 modules: cookie auth, payments, gamification, routines written by an LLM. 133 test files.
+
+**The harness I work in** · private  
+10 subagents, 35 commands and 17 hooks I wrote to keep myself honest: specs before code, subagents that hand their work over as files instead of chat, tests on every edit, and a gate that has to pass before anything counts as done. I built it after one too many "it's finished" that turned out to mean "it looked right on screen".
 
 Most of my work sits in private repositories. Ask and I will walk you through any of it.
 
