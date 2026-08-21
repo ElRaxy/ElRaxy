@@ -10,7 +10,7 @@ Open to full stack roles in Spain and the EU.
 ### Projects
 
 **[Atalaya](https://github.com/ElRaxy/atalaya-cli)** — Python, MIT  
-Pulls remote dev listings from 9 job boards, scores them against your profile and drafts the cover letter. 11 commands, 147 tests, mypy in strict mode, CI green.
+Pulls remote dev listings from 8 job boards, scores them against your profile and drafts the cover letter. 11 commands, 147 tests, mypy in strict mode, CI green.
 
 **[SaveMyMoneyNow](https://github.com/ElRaxy/SaveMyMoneyNow)** — MERN  
 Turns bank statements, which every bank exports its own way, into a spending dashboard. An assistant detects the header row and maps the columns, then rules categorise movements and drop duplicates. 21 endpoints, 66 test cases.
