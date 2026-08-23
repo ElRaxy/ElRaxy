@@ -20,7 +20,7 @@ Every bank exports its statements its own way. This reads them anyway: finds the
 Fitness SaaS for freelance personal trainers, in private beta. 121 endpoints across 26 modules: cookie auth, payments, gamification, and video technique analysis with Gemini, queued so it never blocks the request. 837 passing tests.
 
 **The harness I work in** · private  
-13 subagents, 41 commands and 14 hooks I wrote to keep myself honest: specs before code, subagents that hand their work over as files instead of chat, tests on every edit, and a gate that has to pass before anything counts as done. I built it after one too many "it's finished" that turned out to mean "it looked right on screen".
+13 subagents, 41 commands and 13 hooks I wrote to keep myself honest: specs before code, subagents that hand their work over as files instead of chat, tests on every edit, and a gate that has to pass before anything counts as done. I built it after one too many "it's finished" that turned out to mean "it looked right on screen".
 
 Most of my work sits in private repositories. Ask and I will walk you through any of it.
 
