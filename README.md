@@ -14,7 +14,7 @@ Open to full stack roles in Spain and the EU.
 Pulls dev listings from the Spanish job boards the international tools skip, scores them against your profile and drafts the cover letter with the Claude CLI. 13 commands, 174 tests.
 
 **[SaveMyMoneyNow](https://github.com/ElRaxy/SaveMyMoneyNow)** · MERN  
-Every bank exports its statements its own way. This reads them anyway: finds the header row, maps the columns, categorises the movements and drops the duplicates. 21 endpoints, 66 test cases.
+Every bank exports its statements its own way. This reads them anyway: finds the header row, maps the columns, categorises the movements and drops the duplicates. 21 endpoints, 113 test cases.
 
 **[Strev](https://strev.app)** · MERN, closed source  
 Fitness SaaS for freelance personal trainers, in private beta. 121 endpoints across 26 modules: cookie auth, payments, gamification, and video technique analysis with Gemini, queued so it never blocks the request. 837 passing tests.
