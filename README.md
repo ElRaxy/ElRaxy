@@ -11,16 +11,16 @@ Open to full stack roles in Spain and the EU.
 [![CI](https://github.com/ElRaxy/atalaya-cli/actions/workflows/ci.yml/badge.svg)](https://github.com/ElRaxy/atalaya-cli/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Typed: mypy strict](https://img.shields.io/badge/typed-mypy_strict-blue.svg)](http://mypy-lang.org/)  
-Pulls remote dev listings from 8 job boards, scores them against your profile and drafts the cover letter. 11 commands, 147 tests.
+Pulls dev listings from the Spanish job boards the international tools skip, scores them against your profile and drafts the cover letter with the Claude CLI. 13 commands, 174 tests.
 
 **[SaveMyMoneyNow](https://github.com/ElRaxy/SaveMyMoneyNow)** · MERN  
 Every bank exports its statements its own way. This reads them anyway: finds the header row, maps the columns, categorises the movements and drops the duplicates. 21 endpoints, 66 test cases.
 
 **[Strev](https://strev.app)** · MERN, closed source  
-Fitness SaaS for freelance personal trainers, in private beta. 115 endpoints across 26 modules: cookie auth, payments, gamification, routines written by an LLM. 133 test files.
+Fitness SaaS for freelance personal trainers, in private beta. 121 endpoints across 26 modules: cookie auth, payments, gamification, and video technique analysis with Gemini, queued so it never blocks the request. 837 passing tests.
 
 **The harness I work in** · private  
-10 subagents, 35 commands and 17 hooks I wrote to keep myself honest: specs before code, subagents that hand their work over as files instead of chat, tests on every edit, and a gate that has to pass before anything counts as done. I built it after one too many "it's finished" that turned out to mean "it looked right on screen".
+13 subagents, 41 commands and 14 hooks I wrote to keep myself honest: specs before code, subagents that hand their work over as files instead of chat, tests on every edit, and a gate that has to pass before anything counts as done. I built it after one too many "it's finished" that turned out to mean "it looked right on screen".
 
 Most of my work sits in private repositories. Ask and I will walk you through any of it.
 
@@ -30,5 +30,5 @@ Most of my work sits in private repositories. Ask and I will walk you through an
 | --- | --- |
 | Frontend | React (Hooks, Router, Axios), JavaScript, HTML/CSS, i18next |
 | Backend | Node.js, Express, MongoDB (Mongoose), MySQL, REST APIs |
-| AI | Anthropic SDK, LLM integration, prompt design, agent orchestration |
+| AI | Gemini and Vertex AI, Claude (CLI and SDK), prompt design, agent orchestration |
 | Infra | Git, GitHub Actions, Bash, SSH, Ubuntu Server, Nginx, Apache2, Plesk, DNS |
