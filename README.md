@@ -1,7 +1,7 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" type="image/webp" srcset="./assets/hero-dark.webp">
   <source media="(prefers-color-scheme: light)" type="image/webp" srcset="./assets/hero-light.webp">
-  <img width="1200" height="420" fetchpriority="high" loading="eager" decoding="async" alt="From product UI to production ops. Full-stack developer in Alicante working with React, Node.js, Python and Bash." src="./assets/hero-light.png">
+  <img width="1200" fetchpriority="high" loading="eager" decoding="async" alt="From product UI to production ops. Full-stack developer in Alicante working with React, Node.js, Python and Bash." src="./assets/hero-light.png">
 </picture>
 
 I build the feature, wire the API and make the operation repeatable.
@@ -16,7 +16,7 @@ I build the feature, wire the API and make the operation repeatable.
   <source media="(max-width: 600px)" type="image/webp" srcset="./assets/selected-work-mobile.webp">
   <source media="(max-width: 600px)" srcset="./assets/selected-work-mobile.png">
   <source type="image/webp" srcset="./assets/selected-work-desktop.webp">
-  <img width="1200" height="720" loading="lazy" decoding="async" alt="Selected work: Strev fitness SaaS in private beta, SaveMyMoneyNow public full-stack spreadsheet importer, and Atalaya Python CLI." src="./assets/selected-work-desktop.png">
+  <img width="1200" loading="lazy" decoding="async" alt="Selected work: Strev fitness SaaS in private beta, SaveMyMoneyNow public full-stack spreadsheet importer, and Atalaya Python CLI." src="./assets/selected-work-desktop.png">
 </picture>
 
 ### [Strev](https://strev.app)
