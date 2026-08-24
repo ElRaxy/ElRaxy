@@ -1,0 +1,60 @@
+{
+  "measured_at": "2026-08-24T06:51:40.749078+00:00",
+  "atalaya_version": "0.1.0",
+  "scrapers": [
+    {
+      "scraper": "weworkremotely",
+      "offers": 127,
+      "seconds": 4.7,
+      "error_type": null
+    },
+    {
+      "scraper": "remoteok",
+      "offers": 57,
+      "seconds": 1.1,
+      "error_type": null
+    },
+    {
+      "scraper": "remoteworkspain",
+      "offers": 50,
+      "seconds": 19.0,
+      "error_type": null
+    },
+    {
+      "scraper": "tecnoempleo",
+      "offers": 30,
+      "seconds": 0.3,
+      "error_type": null
+    },
+    {
+      "scraper": "linkedin_public",
+      "offers": 30,
+      "seconds": 7.6,
+      "error_type": null
+    },
+    {
+      "scraper": "jobfluent",
+      "offers": 25,
+      "seconds": 7.5,
+      "error_type": null
+    },
+    {
+      "scraper": "indeed_es",
+      "offers": 16,
+      "seconds": 8.7,
+      "error_type": null
+    },
+    {
+      "scraper": "infojobs",
+      "offers": 13,
+      "seconds": 1.5,
+      "error_type": null
+    },
+    {
+      "scraper": "himalayas",
+      "offers": 0,
+      "seconds": 0.3,
+      "error_type": null
+    }
+  ]
+}
