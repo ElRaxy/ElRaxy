@@ -4,9 +4,11 @@
   <img alt="From product UI to production ops. Full-stack developer in Alicante working with React, Node.js, Python and Bash." src="./assets/hero-light.png">
 </picture>
 
-I build interfaces that ship and the systems that keep them running.
+I build the feature, wire the API and make the operation repeatable.
 
 [Portfolio and CV](https://portfolioalex-mico.vercel.app/en/) · [Email](mailto:alexmico2006@gmail.com)
+
+**Now shipping:** [Strev](https://strev.app) through private beta; turning job-search workflows into [Atalaya](https://github.com/ElRaxy/atalaya-cli).
 
 ## Selected systems
 
@@ -30,3 +32,9 @@ Python CLI that collects and scores Spanish and EU roles, then drafts tailored a
 ## Beyond the UI
 
 At Anuubis Solutions I move between React/Node features and the operational work around them: provider migrations, performance, DNS, Linux and incidents. Repeatable fixes become Python or Bash checks.
+
+## How I work
+
+Small diffs, explicit acceptance criteria, relevant tests, and a browser or terminal check before I call it done.
+
+`React` · `Node.js` · `Python` · `Bash` · `MongoDB` · `Stripe` · `GitHub Actions`
