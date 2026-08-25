@@ -1,42 +1,28 @@
-<picture>
-  <source media="(prefers-color-scheme: dark)" type="image/webp" srcset="./assets/hero-dark.webp">
-  <source media="(prefers-color-scheme: light)" type="image/webp" srcset="./assets/hero-light.webp">
-  <img width="1200" fetchpriority="high" loading="eager" decoding="async" alt="From product UI to production ops. Full-stack developer in Alicante working with React, Node.js, Python and Bash." src="./assets/hero-light.png">
-</picture>
+# Alex Micó Robles
 
-I build the feature, wire the API and make the operation repeatable.
+I build Full Stack products with React and Node.js, then use Python to automate the repetitive parts. I like taking a messy user problem and turning it into a clear flow. I write tests around the decisions that can break it.
 
-[Portfolio and CV](https://portfolioalex-mico.vercel.app/en/) · [Email](mailto:alexmico2006@gmail.com)
+[See my portfolio and CV](https://portfolioalex-mico.vercel.app/en/) · [Email me](mailto:alexmico2006@gmail.com)
 
-**Now shipping:** [Strev](https://strev.app) through private beta; turning job-search workflows into [Atalaya](https://github.com/ElRaxy/atalaya-cli).
-
-## Selected systems
+## Selected work
 
 <picture>
   <source media="(max-width: 600px)" type="image/webp" srcset="./assets/selected-work-mobile.webp">
   <source media="(max-width: 600px)" srcset="./assets/selected-work-mobile.png">
   <source type="image/webp" srcset="./assets/selected-work-desktop.webp">
-  <img width="1200" loading="lazy" decoding="async" alt="Selected work: Strev fitness SaaS in private beta, SaveMyMoneyNow public full-stack spreadsheet importer, and Atalaya Python CLI." src="./assets/selected-work-desktop.png">
+  <img width="1200" alt="Product casebook with Strev and SaveMyMoneyNow screens plus a dated Atalaya source check." src="./assets/selected-work-desktop.png">
 </picture>
 
 ### [Strev](https://strev.app)
 
-Fitness SaaS for personal trainers in private beta. React front end, Node.js API, Stripe payments, gamification and queued Gemini analysis. [Live Strev](https://strev.app) · [Case study](https://portfolioalex-mico.vercel.app/en/projects/strev/)
+A fitness SaaS for personal trainers in private beta. I work across its React interface and Node.js API, including payments and queued video analysis with Gemini. [Read the Strev case study](https://portfolioalex-mico.vercel.app/en/projects/strev/).
 
 ### [SaveMyMoneyNow](https://github.com/ElRaxy/SaveMyMoneyNow)
 
-React import flow plus an Express/MongoDB pipeline for finding headers, mapping columns and rejecting duplicates. [Source](https://github.com/ElRaxy/SaveMyMoneyNow) · [Case study](https://portfolioalex-mico.vercel.app/en/projects/savemymoneynow/)
+SaveMyMoneyNow turns inconsistent bank spreadsheets into a spending dashboard. Its import flow detects headers, maps columns and rejects duplicate movements. [Browse the SaveMyMoneyNow source](https://github.com/ElRaxy/SaveMyMoneyNow) or [read the SaveMyMoneyNow case study](https://portfolioalex-mico.vercel.app/en/projects/savemymoneynow/).
 
 ### [Atalaya](https://github.com/ElRaxy/atalaya-cli)
 
-Python CLI that collects and scores Spanish and EU roles, then drafts tailored application material. [Source](https://github.com/ElRaxy/atalaya-cli) · [Case study](https://portfolioalex-mico.vercel.app/en/projects/atalaya/)
+Atalaya is a Python CLI for collecting developer roles, scoring fit and drafting application material. [Open the recorded source check](./assets/evidence/atalaya-health-2026-08-24.json), [browse the Atalaya source](https://github.com/ElRaxy/atalaya-cli) or [read the Atalaya case study](https://portfolioalex-mico.vercel.app/en/projects/atalaya/).
 
-## Beyond the UI
-
-At Anuubis Solutions I move between React/Node features and the operational work around them: provider migrations, performance, DNS, Linux and incidents. Repeatable fixes become Python or Bash checks.
-
-## How I work
-
-Small diffs, explicit acceptance criteria, relevant tests, and a browser or terminal check before I call it done.
-
-`React` · `Node.js` · `Python` · `Bash` · `MongoDB` · `Stripe` · `GitHub Actions`
+I work in short feedback loops, with acceptance criteria written before the code.

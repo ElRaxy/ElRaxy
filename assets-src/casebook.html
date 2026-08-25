@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Selected work</title>
+    <style>
+      :root {
+        color-scheme: light;
+        font-family: "IBM Plex Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        background: #f7f6f2;
+        color: #19191b;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      html,
+      body {
+        width: 1200px;
+        height: 780px;
+        margin: 0;
+        overflow: hidden;
+      }
+
+      body {
+        padding: 44px 52px 48px;
+        background: #f7f6f2;
+      }
+
+      header {
+        display: flex;
+        align-items: end;
+        justify-content: space-between;
+        min-height: 76px;
+        margin-bottom: 28px;
+        padding-bottom: 20px;
+        border-bottom: 1px solid #d9d7d1;
+      }
+
+      h1,
+      h2,
+      p {
+        margin: 0;
+      }
+
+      h1 {
+        font-size: 50px;
+        font-weight: 600;
+        letter-spacing: -0.045em;
+        line-height: 0.98;
+      }
+
+      .folio {
+        color: #66656b;
+        font-size: 17px;
+        font-weight: 500;
+        letter-spacing: 0.02em;
+      }
+
+      .work-grid {
+        display: grid;
+        grid-template-columns: minmax(0, 1.55fr) minmax(0, 1fr);
+        grid-template-rows: repeat(2, minmax(0, 1fr));
+        gap: 22px;
+        height: 562px;
+      }
+
+      article {
+        display: flex;
+        min-width: 0;
+        min-height: 0;
+        flex-direction: column;
+        padding: 22px;
+        overflow: hidden;
+        border: 1px solid #d9d7d1;
+        border-radius: 20px;
+        background: #ffffff;
+      }
+
+      .strev {
+        grid-row: 1 / 3;
+      }
+
+      .case-heading {
+        display: grid;
+        grid-template-columns: minmax(0, 1fr) auto;
+        gap: 20px;
+        align-items: start;
+        margin-bottom: 18px;
+      }
+
+      h2 {
+        font-size: 28px;
+        font-weight: 600;
+        letter-spacing: -0.03em;
+        line-height: 1.05;
+      }
+
+      .caption,
+      .number {
+        color: #66656b;
+        font-size: 17px;
+        line-height: 1.35;
+      }
+
+      .caption {
+        margin-top: 6px;
+      }
+
+      .number {
+        color: #2f6ba8;
+        font-weight: 600;
+      }
+
+      .media {
+        flex: 1;
+        min-height: 0;
+        overflow: hidden;
+        border: 1px solid #d9d7d1;
+        border-radius: 12px;
+        background: #151619;
+      }
+
+      .media img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+
+      .strev .media img {
+        object-fit: contain;
+        object-position: center;
+      }
+
+      .money .media {
+        background: #ffffff;
+      }
+
+      .money .media img {
+        object-position: center 30%;
+      }
+
+      .atalaya .media {
+        display: grid;
+        grid-template-columns: 0.9fr 1.25fr;
+        grid-template-rows: 1fr auto;
+        gap: 12px 22px;
+        align-items: center;
+        padding: 18px 22px;
+        background: #f7f6f2;
+      }
+
+      .proof-result strong,
+      .proof-result span,
+      .proof-date strong,
+      .proof-date span {
+        display: block;
+      }
+
+      .proof-result strong {
+        color: #2f6ba8;
+        font-size: 46px;
+        font-weight: 600;
+        letter-spacing: -0.04em;
+        line-height: 0.95;
+      }
+
+      .proof-result span,
+      .proof-date span,
+      .proof-sources {
+        color: #66656b;
+        font-size: 14px;
+        line-height: 1.3;
+      }
+
+      .proof-date {
+        padding-left: 22px;
+        border-left: 1px solid #d9d7d1;
+      }
+
+      .proof-date strong {
+        margin-top: 3px;
+        font-size: 22px;
+        line-height: 1.1;
+      }
+
+      .proof-sources {
+        display: none;
+        grid-column: 1 / -1;
+        padding-top: 10px;
+        border-top: 1px solid #d9d7d1;
+      }
+
+      @media (max-width: 800px) {
+        html,
+        body {
+          width: 720px;
+          height: 1280px;
+        }
+
+        body {
+          padding: 40px;
+        }
+
+        header {
+          min-height: 80px;
+          margin-bottom: 24px;
+          padding-bottom: 18px;
+        }
+
+        h1 {
+          font-size: 50px;
+        }
+
+        .folio {
+          font-size: 20px;
+        }
+
+        .work-grid {
+          display: flex;
+          height: 1080px;
+          flex-direction: column;
+          gap: 20px;
+        }
+
+        article {
+          flex: 1 1 0;
+          padding: 20px;
+          border-radius: 18px;
+        }
+
+        .case-heading {
+          margin-bottom: 14px;
+        }
+
+        h2 {
+          font-size: 30px;
+        }
+
+        .caption,
+        .number {
+          font-size: 20px;
+        }
+
+        .media {
+          border-radius: 10px;
+        }
+
+        .money .media img {
+          object-position: center 24%;
+        }
+
+        .strev .media img {
+          object-fit: cover;
+        }
+
+        .atalaya .media {
+          padding: 22px 28px;
+        }
+
+        .proof-result strong {
+          font-size: 58px;
+        }
+
+        .proof-sources {
+          display: block;
+        }
+
+        .proof-result span,
+        .proof-date span,
+        .proof-sources {
+          font-size: 18px;
+        }
+
+        .proof-date strong {
+          font-size: 28px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Selected work</h1>
+      <p class="folio">Product casebook · 01–03</p>
+    </header>
+
+    <main class="work-grid" aria-label="Selected product evidence">
+      <article class="strev">
+        <div class="case-heading">
+          <div>
+            <h2>Strev</h2>
+            <p class="caption">Trainer workspace · React + Node.js</p>
+          </div>
+          <span class="number">01</span>
+        </div>
+        <div class="media">
+          <img src="../assets/projects/strev-product.png" alt="Strev trainer routines screen">
+        </div>
+      </article>
+
+      <article class="money">
+        <div class="case-heading">
+          <div>
+            <h2>SaveMyMoneyNow</h2>
+            <p class="caption">Spreadsheet import · React + Node.js</p>
+          </div>
+          <span class="number">02</span>
+        </div>
+        <div class="media">
+          <img src="../assets/projects/savemymoneynow-detection.png" alt="SaveMyMoneyNow column detection flow">
+        </div>
+      </article>
+
+      <article class="atalaya">
+        <div class="case-heading">
+          <div>
+            <h2>Atalaya</h2>
+            <p class="caption">Recorded source check · Python CLI</p>
+          </div>
+          <span class="number">03</span>
+        </div>
+        <div class="media" role="img" aria-label="Atalaya recorded source check: eight of nine sources returned offers on 24 August 2026">
+          <div class="proof-result">
+            <strong>8 / 9</strong>
+            <span>sources returned offers</span>
+          </div>
+          <div class="proof-date">
+            <span>Recorded check</span>
+            <strong>24 Aug 2026</strong>
+          </div>
+          <p class="proof-sources">We Work Remotely · Remote OK · InfoJobs · JobFluent</p>
+        </div>
+      </article>
+    </main>
+  </body>
+</html>
