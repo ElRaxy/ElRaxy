@@ -4,6 +4,8 @@ I build Full Stack products with React and Node.js, then use Python to automate 
 
 [See my portfolio and CV](https://portfolioalex-mico.vercel.app/en/) · [Email me](mailto:alexmico2006@gmail.com)
 
+I'm also building [Sereno](https://github.com/ElRaxy/sereno), a Python terminal UI in one file, with no dependencies. It shows whether Claude Code, Codex, Gemini and Antigravity sessions are working, waiting or stuck.
+
 ## Selected work
 
 <picture>
