@@ -1,30 +1,30 @@
 # Alex Micó Robles
 
-I build Full Stack products with React and Node.js, then use Python to automate the repetitive parts. I like taking a messy user problem and turning it into a clear flow. I write tests around the decisions that can break it.
+Full Stack developer building web products with React and Node.js, plus focused tools in Python. I like turning a messy problem into a flow people can understand, then testing the decisions most likely to break.
 
-[See my portfolio and CV](https://portfolioalex-mico.vercel.app/en/) · [Email me](mailto:alexmico2006@gmail.com)
+[Portfolio](https://portfolioalex-mico.vercel.app/en/) · [CV](https://portfolioalex-mico.vercel.app/Alex_Mico_Robles_CV_EN.pdf) · [Email](mailto:alexmico2006@gmail.com)
 
-I'm also building [Sereno](https://github.com/ElRaxy/sereno), a Python terminal UI in one file, with no dependencies. It shows whether Claude Code, Codex, Gemini and Antigravity sessions are working, waiting or stuck.
+## Main work
 
-## Selected work
+### Strev
 
-<picture>
-  <source media="(max-width: 600px)" type="image/webp" srcset="./assets/selected-work-mobile.webp">
-  <source media="(max-width: 600px)" srcset="./assets/selected-work-mobile.png">
-  <source type="image/webp" srcset="./assets/selected-work-desktop.webp">
-  <img width="1200" alt="Product casebook with Strev and SaveMyMoneyNow screens plus a dated Atalaya source check." src="./assets/selected-work-desktop.png">
-</picture>
+<img width="1200" alt="Strev product view with its public website and workout planning interface." src="./assets/projects/strev-product.png">
 
-### [Strev](https://strev.app)
+Strev gives personal trainers one place to build routines, follow progress, handle payments and review technique on video. I work across its React interface and Node.js API, including the queue that keeps video analysis out of the request path.
 
-A fitness SaaS for personal trainers in private beta. I work across its React interface and Node.js API, including payments and queued video analysis with Gemini. [Read the Strev case study](https://portfolioalex-mico.vercel.app/en/projects/strev/).
+[Visit Strev](https://strev.app) · [Read the case study](https://portfolioalex-mico.vercel.app/en/projects/strev/)
 
-### [SaveMyMoneyNow](https://github.com/ElRaxy/SaveMyMoneyNow)
+### Sereno
 
-SaveMyMoneyNow turns inconsistent bank spreadsheets into a spending dashboard. Its import flow detects headers, maps columns and rejects duplicate movements. [Browse the SaveMyMoneyNow source](https://github.com/ElRaxy/SaveMyMoneyNow) or [read the SaveMyMoneyNow case study](https://portfolioalex-mico.vercel.app/en/projects/savemymoneynow/).
+<img width="1200" alt="Sereno terminal UI showing local coding-agent sessions and their current states." src="./assets/projects/sereno-session-overview.webp">
 
-### [Atalaya](https://github.com/ElRaxy/atalaya-cli)
+Sereno is a single-file Python terminal UI I use to see which Claude Code, Codex, Gemini and Antigravity sessions are writing, running a command, waiting or stopped. It reads local histories and sends nothing off the machine.
 
-Atalaya is a Python CLI for collecting developer roles, scoring fit and drafting application material. [Open the recorded source check](./assets/evidence/atalaya-health-2026-08-24.json), [browse the Atalaya source](https://github.com/ElRaxy/atalaya-cli) or [read the Atalaya case study](https://portfolioalex-mico.vercel.app/en/projects/atalaya/).
+[Source](https://github.com/ElRaxy/sereno) · [Latest release](https://github.com/ElRaxy/sereno/releases/latest) · [Read the case study](https://portfolioalex-mico.vercel.app/en/projects/sereno/)
 
-I work in short feedback loops, with acceptance criteria written before the code.
+## Other products
+
+- **[SaveMyMoneyNow](https://github.com/ElRaxy/SaveMyMoneyNow)** imports bank statements whose layout changes between files. It finds the header, suggests the column mapping and checks duplicates before saving. [Case study](https://portfolioalex-mico.vercel.app/en/projects/savemymoneynow/).
+- **[Atalaya](https://github.com/ElRaxy/atalaya-cli)** collects developer roles from several sources, removes duplicates and ranks them against a profile. The person still chooses which applications are worth pursuing. [Case study](https://portfolioalex-mico.vercel.app/en/projects/atalaya/).
+
+I write acceptance criteria before the code when a change is easy to misunderstand.
