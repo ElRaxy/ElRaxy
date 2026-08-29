@@ -1,6 +1,6 @@
 # Alex Micó Robles
 
-Full Stack developer building web products with React and Node.js, plus focused tools in Python. I like turning a messy problem into a flow people can understand, then testing the decisions most likely to break.
+Full Stack developer currently focused on two products: Strev, a web product for personal trainers, and Sereno, a local terminal UI for coding-agent sessions. React and Node.js for product work; Python when a focused tool is the better answer.
 
 [Portfolio](https://portfolioalex-mico.vercel.app/en/) · [CV](https://portfolioalex-mico.vercel.app/Alex_Mico_Robles_CV_EN.pdf) · [Email](mailto:alexmico2006@gmail.com)
 
@@ -26,5 +26,3 @@ Sereno is a single-file Python terminal UI I use to see which Claude Code, Codex
 
 - **[SaveMyMoneyNow](https://github.com/ElRaxy/SaveMyMoneyNow)** imports bank statements whose layout changes between files. It finds the header, suggests the column mapping and checks duplicates before saving. [Case study](https://portfolioalex-mico.vercel.app/en/projects/savemymoneynow/).
 - **[Atalaya](https://github.com/ElRaxy/atalaya-cli)** collects developer roles from several sources, removes duplicates and ranks them against a profile. The person still chooses which applications are worth pursuing. [Case study](https://portfolioalex-mico.vercel.app/en/projects/atalaya/).
-
-I write acceptance criteria before the code when a change is easy to misunderstand.
