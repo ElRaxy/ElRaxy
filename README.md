@@ -24,5 +24,6 @@ Sereno is a single-file Python terminal UI I use to see which Claude Code, Codex
 
 ## Other products
 
+- **[RoguePatch Lab](https://github.com/ElRaxy/roguepatch-lab)** is an adversarial bench for external coding-agent controls: it measures whether a control stops what it claims to stop, with a deterministic oracle and typed evidence instead of an LLM judge. 366 tests, strict mypy, MIT.
 - **[SaveMyMoneyNow](https://github.com/ElRaxy/SaveMyMoneyNow)** imports bank statements whose layout changes between files. It finds the header, suggests the column mapping and checks duplicates before saving. [Case study](https://portfolioalex-mico.vercel.app/en/projects/savemymoneynow/).
 - **[Atalaya](https://github.com/ElRaxy/atalaya-cli)** collects developer roles from several sources, removes duplicates and ranks them against a profile. The person still chooses which applications are worth pursuing. [Case study](https://portfolioalex-mico.vercel.app/en/projects/atalaya/).
