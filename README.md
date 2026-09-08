@@ -18,7 +18,7 @@ Strev gives personal trainers one place to build routines, follow progress, hand
 
 <img width="1200" alt="Sereno terminal UI showing local coding-agent sessions and their current states." src="./assets/projects/sereno-session-overview.webp">
 
-Sereno is a single-file Python terminal UI I use to see which Claude Code, Codex, Gemini and Antigravity sessions are writing, running a command, waiting or stopped. It reads local histories and sends nothing off the machine.
+Sereno is a single-file Python terminal UI I use to see which Claude Code, Codex, Gemini, Antigravity and Kilo Code sessions are writing, running a command, waiting or stopped. It reads local histories and sends nothing off the machine.
 
 [Source](https://github.com/ElRaxy/sereno) · [Latest release](https://github.com/ElRaxy/sereno/releases/latest) · [Read the case study](https://portfolioalex-mico.vercel.app/en/projects/sereno/)
 
