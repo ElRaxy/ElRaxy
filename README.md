@@ -2,7 +2,7 @@
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/profile/terminal-dark.svg">
-  <img src="./assets/profile/terminal-light.svg" width="846" alt="ElRaxy">
+  <img src="./assets/profile/terminal-light.svg" width="846" alt="Alex Micó">
 </picture>
 
 **`Full stack · Products · Developer tools`**
