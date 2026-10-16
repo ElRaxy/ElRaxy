@@ -1,0 +1,78 @@
+{
+  "provider": "Shields.io",
+  "style": "flat-square",
+  "assets": [
+    {
+      "name": "React",
+      "path": "assets/profile/tech-react.svg",
+      "source": "https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB",
+      "logo": "react"
+    },
+    {
+      "name": "JavaScript",
+      "path": "assets/profile/tech-javascript.svg",
+      "source": "https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black",
+      "logo": "javascript"
+    },
+    {
+      "name": "TypeScript",
+      "path": "assets/profile/tech-typescript.svg",
+      "source": "https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white",
+      "logo": "typescript"
+    },
+    {
+      "name": "Node.js",
+      "path": "assets/profile/tech-node.svg",
+      "source": "https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white",
+      "logo": "nodedotjs"
+    },
+    {
+      "name": "Express",
+      "path": "assets/profile/tech-express.svg",
+      "source": "https://img.shields.io/badge/Express-20232A?style=flat-square&logo=express&logoColor=white",
+      "logo": "express"
+    },
+    {
+      "name": "MongoDB",
+      "path": "assets/profile/tech-mongodb.svg",
+      "source": "https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white",
+      "logo": "mongodb"
+    },
+    {
+      "name": "Python",
+      "path": "assets/profile/tech-python.svg",
+      "source": "https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white",
+      "logo": "python"
+    },
+    {
+      "name": "Bash",
+      "path": "assets/profile/tech-bash.svg",
+      "source": "https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white",
+      "logo": "gnubash"
+    },
+    {
+      "name": "Vitest",
+      "path": "assets/profile/tech-vitest.svg",
+      "source": "https://img.shields.io/badge/Vitest-6E9F18?style=flat-square&logo=vitest&logoColor=white",
+      "logo": "vitest"
+    },
+    {
+      "name": "GitHub Actions",
+      "path": "assets/profile/tech-github-actions.svg",
+      "source": "https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white",
+      "logo": "githubactions"
+    },
+    {
+      "name": "Gemini",
+      "path": "assets/profile/tech-gemini.svg",
+      "source": "https://img.shields.io/badge/Gemini-8E75B2?style=flat-square&logo=googlegemini&logoColor=white",
+      "logo": "googlegemini"
+    },
+    {
+      "name": "Vertex AI",
+      "path": "assets/profile/tech-vertex-ai.svg",
+      "source": "https://img.shields.io/badge/Vertex%20AI-4285F4?style=flat-square&logo=googlecloud&logoColor=white",
+      "logo": "googlecloud"
+    }
+  ]
+}

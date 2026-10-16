@@ -1,67 +1,80 @@
+<div align="center">
+
 <picture>
-  <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="./assets/profile/name-dark-mobile.svg">
-  <source media="(max-width: 600px)" srcset="./assets/profile/name-light-mobile.svg">
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/profile/name-dark.svg">
-  <img src="./assets/profile/name-light.svg" width="1200" alt="Alex Micó. ElRaxy. Full stack developer, products and tools.">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/profile/terminal-dark.svg">
+  <img src="./assets/profile/terminal-light.svg" width="846" alt="ElRaxy">
 </picture>
 
-# Alex Micó Robles
-
-I build web products and tools I use in my own workflow. That means React interfaces, Node.js APIs and, sometimes, a Python tool that fits in one file.
-
-Alongside product work, I automate repetitive tasks and build local tools for working with coding agents.
+**`Full stack · Products · Developer tools`**
 
 [Portfolio](https://portfolioalex-mico.vercel.app/) · [CV](https://portfolioalex-mico.vercel.app/Alex_Mico_Robles_CV_EN.pdf) · [Email](mailto:alexmico2006@gmail.com)
 
-## What I work with
+</div>
 
-<p>
-  <strong>Interfaces</strong><br>
-  <img src="./assets/profile/tool-react.svg" width="70" alt="React">
-  <img src="./assets/profile/tool-javascript.svg" width="110" alt="JavaScript">
-  <img src="./assets/profile/tool-typescript.svg" width="110" alt="TypeScript">
-</p>
-<p>
-  <strong>APIs &amp; data</strong><br>
-  <img src="./assets/profile/tool-node.svg" width="86" alt="Node.js">
-  <img src="./assets/profile/tool-express.svg" width="86" alt="Express">
-  <img src="./assets/profile/tool-mongodb.svg" width="86" alt="MongoDB">
-</p>
-<p>
-  <strong>Local tools &amp; automation</strong><br>
-  <img src="./assets/profile/tool-python.svg" width="78" alt="Python">
-  <img src="./assets/profile/tool-bash.svg" width="62" alt="Bash">
-</p>
-<p>
-  <strong>Testing &amp; delivery</strong><br>
-  <img src="./assets/profile/tool-vitest.svg" width="78" alt="Vitest">
-  <img src="./assets/profile/tool-github-actions.svg" width="142" alt="GitHub Actions">
-</p>
-<p>
-  <strong>Video analysis in Strev</strong><br>
-  <img src="./assets/profile/tool-gemini.svg" width="78" alt="Gemini">
-  <img src="./assets/profile/tool-vertex-ai.svg" width="102" alt="Vertex AI">
-</p>
+---
 
-## Products & experiments
+## About
 
-### [Strev](https://strev.app)
+> I'm Alex Micó Robles, a full stack developer in Alicante, Spain. I build web products and tools for my own workflow.
 
-A web product for personal trainers to build routines, follow progress, handle payments and review exercise technique on video. I work across the React interface and Node.js API, including the background queue for video analysis.
+- React interfaces and Node.js APIs for web products.
+- Python tools for coding-agent sessions, job searches and repetitive tasks.
+- Video analysis with Gemini in Strev; deterministic checks for agent controls in RoguePatch Lab.
 
-[Visit Strev](https://strev.app) · [Case study](https://portfolioalex-mico.vercel.app/en/projects/strev/) · Closed source
+---
 
-### [Sereno](https://github.com/ElRaxy/sereno)
+## Tech stack
 
-When I have several coding-agent sessions open, I want to know which ones need me. Sereno reads their local histories and shows what is running, waiting or stopped in one Python terminal UI. Session data stays on the machine.
+**Frontend**
 
-[Source](https://github.com/ElRaxy/sereno) · [Latest release](https://github.com/ElRaxy/sereno/releases/latest) · [Case study](https://portfolioalex-mico.vercel.app/en/projects/sereno/)
+![React](./assets/profile/tech-react.svg)
+![JavaScript](./assets/profile/tech-javascript.svg)
+![TypeScript](./assets/profile/tech-typescript.svg)
+
+**Backend & data**
+
+![Node.js](./assets/profile/tech-node.svg)
+![Express](./assets/profile/tech-express.svg)
+![MongoDB](./assets/profile/tech-mongodb.svg)
+
+**Tools & automation**
+
+![Python](./assets/profile/tech-python.svg)
+![Bash](./assets/profile/tech-bash.svg)
+
+**Testing & delivery**
+
+![Vitest](./assets/profile/tech-vitest.svg)
+![GitHub Actions](./assets/profile/tech-github-actions.svg)
+
+**AI in Strev**
+
+![Gemini](./assets/profile/tech-gemini.svg)
+![Vertex AI](./assets/profile/tech-vertex-ai.svg)
+
+---
+
+## Currently building
+
+```python
+workbench = {
+    "Strev":  "training & video review",
+    "Sereno": "coding-agent sessions",
+    "Tools":  "local automations",
+}
+```
+
+---
+
+## Featured projects
 
 | Project | What it does |
 | :--- | :--- |
-| [RoguePatch Lab](https://github.com/ElRaxy/roguepatch-lab) | Tests whether external coding-agent controls stop the actions they claim to stop. Deterministic checks and typed evidence. |
-| [SaveMyMoneyNow](https://github.com/ElRaxy/SaveMyMoneyNow) | Imports bank statements with different layouts. Detects headers, maps columns and checks for duplicates before saving. |
-| [Atalaya](https://github.com/ElRaxy/atalaya-cli) | Collects developer roles, removes duplicates and ranks them against a profile. The person chooses where to apply. |
+| [Strev](https://strev.app) | Routines, progress, payments and video technique review for personal trainers. React + Node.js. Closed source. |
+| [Sereno](https://github.com/ElRaxy/sereno) | A Python terminal UI for coding-agent sessions. See what is running, waiting or stopped. Data stays local. |
+| [RoguePatch Lab](https://github.com/ElRaxy/roguepatch-lab) | An adversarial bench for external agent controls. Deterministic checks with typed evidence. |
+| [SaveMyMoneyNow](https://github.com/ElRaxy/SaveMyMoneyNow) | Bank statement imports with header detection, column mapping and duplicate checks. React + Express + MongoDB. |
+| [Atalaya](https://github.com/ElRaxy/atalaya-cli) | A Python CLI that collects, deduplicates and ranks developer roles. The person chooses where to apply. |
 
 <details>
 <summary>Inside Strev and Sereno</summary>
@@ -70,8 +83,36 @@ When I have several coding-agent sessions open, I want to know which ones need m
 
 <img width="1200" alt="Strev's public website and workout planning interface." src="./assets/projects/strev-product.png">
 
+[Case study](https://portfolioalex-mico.vercel.app/en/projects/strev/)
+
 #### Sereno
 
 <img width="1200" alt="Sereno showing local coding-agent sessions and their current states." src="./assets/projects/sereno-session-overview.webp">
 
+[Case study](https://portfolioalex-mico.vercel.app/en/projects/sereno/) · [Latest release](https://github.com/ElRaxy/sereno/releases/latest)
+
 </details>
+
+---
+
+## GitHub activity
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=ElRaxy&amp;show_icons=true&amp;hide_border=true&amp;hide_rank=true&amp;hide=stars&amp;theme=dark&amp;bg_color=00000000&amp;title_color=879aff&amp;icon_color=879aff">
+  <img src="https://github-readme-stats.vercel.app/api?username=ElRaxy&amp;show_icons=true&amp;hide_border=true&amp;hide_rank=true&amp;hide=stars&amp;theme=default&amp;bg_color=00000000&amp;title_color=2448ff&amp;icon_color=2448ff" width="400" alt="GitHub activity for ElRaxy, generated from GitHub data.">
+</picture>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=ElRaxy&amp;layout=compact&amp;hide_border=true&amp;langs_count=6&amp;theme=dark&amp;bg_color=00000000&amp;title_color=879aff">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ElRaxy&amp;layout=compact&amp;hide_border=true&amp;langs_count=6&amp;theme=default&amp;bg_color=00000000&amp;title_color=2448ff" width="400" alt="Languages in ElRaxy's public repositories, based on repository code size.">
+</picture>
+
+<sub>Language shares describe code in public repositories, not proficiency.</sub>
+
+### Contribution graph
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ElRaxy/ElRaxy/output/github-snake-dark.svg">
+  <img src="https://raw.githubusercontent.com/ElRaxy/ElRaxy/output/github-snake.svg" width="846" alt="An animated snake following ElRaxy's GitHub contribution graph.">
+</picture>
+
+<sub>Generated daily from my GitHub contributions with <a href="https://github.com/Platane/snk">snk</a>.</sub>
