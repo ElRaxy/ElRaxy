@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 78 30" role="img" aria-label="Gemini">
+  <rect x=".5" y=".5" width="77" height="29" rx="5" fill="#f1f0e8" stroke="#c5c7bd"/>
+  <path d="M8 11v8" stroke="#2448ff" stroke-width="2"/>
+  <text x="18" y="20" fill="#141613" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13">Gemini</text>
+</svg>

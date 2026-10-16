@@ -1,29 +1,77 @@
+<picture>
+  <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="./assets/profile/name-dark-mobile.svg">
+  <source media="(max-width: 600px)" srcset="./assets/profile/name-light-mobile.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/profile/name-dark.svg">
+  <img src="./assets/profile/name-light.svg" width="1200" alt="Alex Micó. ElRaxy. Full stack developer, products and tools.">
+</picture>
+
 # Alex Micó Robles
 
-Full Stack developer currently focused on two products: Strev, a web product for personal trainers, and Sereno, a local terminal UI for coding-agent sessions. React and Node.js for product work; Python when a focused tool is the better answer.
+I build web products and tools I use in my own workflow. That means React interfaces, Node.js APIs and, sometimes, a Python tool that fits in one file.
 
-[Portfolio](https://portfolioalex-mico.vercel.app/en/) · [CV](https://portfolioalex-mico.vercel.app/Alex_Mico_Robles_CV_EN.pdf) · [Email](mailto:alexmico2006@gmail.com)
+Alongside product work, I automate repetitive tasks and build local tools for working with coding agents.
 
-## Main work
+[Portfolio](https://portfolioalex-mico.vercel.app/) · [CV](https://portfolioalex-mico.vercel.app/Alex_Mico_Robles_CV_EN.pdf) · [Email](mailto:alexmico2006@gmail.com)
 
-### Strev
+## What I work with
 
-<img width="1200" alt="Strev product view with its public website and workout planning interface." src="./assets/projects/strev-product.png">
+<p>
+  <strong>Interfaces</strong><br>
+  <img src="./assets/profile/tool-react.svg" width="70" alt="React">
+  <img src="./assets/profile/tool-javascript.svg" width="110" alt="JavaScript">
+  <img src="./assets/profile/tool-typescript.svg" width="110" alt="TypeScript">
+</p>
+<p>
+  <strong>APIs &amp; data</strong><br>
+  <img src="./assets/profile/tool-node.svg" width="86" alt="Node.js">
+  <img src="./assets/profile/tool-express.svg" width="86" alt="Express">
+  <img src="./assets/profile/tool-mongodb.svg" width="86" alt="MongoDB">
+</p>
+<p>
+  <strong>Local tools &amp; automation</strong><br>
+  <img src="./assets/profile/tool-python.svg" width="78" alt="Python">
+  <img src="./assets/profile/tool-bash.svg" width="62" alt="Bash">
+</p>
+<p>
+  <strong>Testing &amp; delivery</strong><br>
+  <img src="./assets/profile/tool-vitest.svg" width="78" alt="Vitest">
+  <img src="./assets/profile/tool-github-actions.svg" width="142" alt="GitHub Actions">
+</p>
+<p>
+  <strong>Video analysis in Strev</strong><br>
+  <img src="./assets/profile/tool-gemini.svg" width="78" alt="Gemini">
+  <img src="./assets/profile/tool-vertex-ai.svg" width="102" alt="Vertex AI">
+</p>
 
-Strev gives personal trainers one place to build routines, follow progress, handle payments and review technique on video. I work across its React interface and Node.js API, including the queue that keeps video analysis out of the request path.
+## Products & experiments
 
-[Visit Strev](https://strev.app) · [Read the case study](https://portfolioalex-mico.vercel.app/en/projects/strev/)
+### [Strev](https://strev.app)
 
-### Sereno
+A web product for personal trainers to build routines, follow progress, handle payments and review exercise technique on video. I work across the React interface and Node.js API, including the background queue for video analysis.
 
-<img width="1200" alt="Sereno terminal UI showing local coding-agent sessions and their current states." src="./assets/projects/sereno-session-overview.webp">
+[Visit Strev](https://strev.app) · [Case study](https://portfolioalex-mico.vercel.app/en/projects/strev/) · Closed source
 
-Sereno is a single-file Python terminal UI I use to see which Claude Code, Codex, Gemini, Antigravity and Kilo Code sessions are writing, running a command, waiting or stopped. It reads local histories and sends nothing off the machine.
+### [Sereno](https://github.com/ElRaxy/sereno)
 
-[Source](https://github.com/ElRaxy/sereno) · [Latest release](https://github.com/ElRaxy/sereno/releases/latest) · [Read the case study](https://portfolioalex-mico.vercel.app/en/projects/sereno/)
+When I have several coding-agent sessions open, I want to know which ones need me. Sereno reads their local histories and shows what is running, waiting or stopped in one Python terminal UI. Session data stays on the machine.
 
-## Other products
+[Source](https://github.com/ElRaxy/sereno) · [Latest release](https://github.com/ElRaxy/sereno/releases/latest) · [Case study](https://portfolioalex-mico.vercel.app/en/projects/sereno/)
 
-- **[RoguePatch Lab](https://github.com/ElRaxy/roguepatch-lab)** is an adversarial bench for external coding-agent controls: it measures whether a control stops what it claims to stop, with a deterministic oracle and typed evidence instead of an LLM judge. 366 tests, strict mypy, MIT.
-- **[SaveMyMoneyNow](https://github.com/ElRaxy/SaveMyMoneyNow)** imports bank statements whose layout changes between files. It finds the header, suggests the column mapping and checks duplicates before saving. [Case study](https://portfolioalex-mico.vercel.app/en/projects/savemymoneynow/).
-- **[Atalaya](https://github.com/ElRaxy/atalaya-cli)** collects developer roles from several sources, removes duplicates and ranks them against a profile. The person still chooses which applications are worth pursuing. [Case study](https://portfolioalex-mico.vercel.app/en/projects/atalaya/).
+| Project | What it does |
+| :--- | :--- |
+| [RoguePatch Lab](https://github.com/ElRaxy/roguepatch-lab) | Tests whether external coding-agent controls stop the actions they claim to stop. Deterministic checks and typed evidence. |
+| [SaveMyMoneyNow](https://github.com/ElRaxy/SaveMyMoneyNow) | Imports bank statements with different layouts. Detects headers, maps columns and checks for duplicates before saving. |
+| [Atalaya](https://github.com/ElRaxy/atalaya-cli) | Collects developer roles, removes duplicates and ranks them against a profile. The person chooses where to apply. |
+
+<details>
+<summary>Inside Strev and Sereno</summary>
+
+#### Strev
+
+<img width="1200" alt="Strev's public website and workout planning interface." src="./assets/projects/strev-product.png">
+
+#### Sereno
+
+<img width="1200" alt="Sereno showing local coding-agent sessions and their current states." src="./assets/projects/sereno-session-overview.webp">
+
+</details>
