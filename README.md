@@ -1,11 +1,11 @@
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/profile/terminal-dark.svg">
-  <img src="./assets/profile/terminal-light.svg" width="720" alt="Alex Micó">
+  <source media="(prefers-color-scheme: dark) and (max-width: 1000px)" srcset="./assets/profile/terminal-dark-mobile.svg?v=personality-01">
+  <source media="(max-width: 1000px)" srcset="./assets/profile/terminal-light-mobile.svg?v=personality-01">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/profile/terminal-dark.svg?v=personality-01">
+  <img src="./assets/profile/terminal-light.svg?v=personality-01" alt="Alex Micó — Full stack, products and developer tools">
 </picture>
-
-**`Full stack · Products · Developer tools`**
 
 [Portfolio](https://portfolioalex-mico.vercel.app/) · [CV](https://portfolioalex-mico.vercel.app/Alex_Mico_Robles_CV_EN.pdf) · [Email](mailto:alexmico2006@gmail.com)
 
@@ -62,25 +62,43 @@ Currently building [Strev](https://strev.app) and [Sereno](https://github.com/El
 
 ## <img src="./assets/profile/icon-projects.svg" width="22" align="absmiddle" alt=""> Featured projects
 
-### [Strev](https://strev.app)
+<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark) and (max-width: 1000px)" srcset="./assets/profile/project-strev-dark-mobile.svg">
+  <source media="(max-width: 1000px)" srcset="./assets/profile/project-strev-light-mobile.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/profile/project-strev-dark.svg">
+  <img src="./assets/profile/project-strev-light.svg" alt="Strev">
+</picture>
+</div>
 
-Routines, progress, payments and video technique review for personal trainers. React + Node.js. Closed source.
+Routines, progress, payments and video technique review for personal trainers. React + Node.js. Closed source. [Visit Strev](https://strev.app).
 
-### [Sereno](https://github.com/ElRaxy/sereno)
+<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark) and (max-width: 1000px)" srcset="./assets/profile/project-sereno-dark-mobile.svg">
+  <source media="(max-width: 1000px)" srcset="./assets/profile/project-sereno-light-mobile.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/profile/project-sereno-dark.svg">
+  <img src="./assets/profile/project-sereno-light.svg" alt="Sereno">
+</picture>
+</div>
 
-A Python terminal UI for coding-agent sessions. See what is running, waiting or stopped. Data stays local.
+A Python terminal UI for coding-agent sessions. See what is running, waiting or stopped. Data stays local. [Explore Sereno](https://github.com/ElRaxy/sereno).
 
-### [RoguePatch Lab](https://github.com/ElRaxy/roguepatch-lab)
+<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark) and (max-width: 1000px)" srcset="./assets/profile/project-roguepatch-dark-mobile.svg">
+  <source media="(max-width: 1000px)" srcset="./assets/profile/project-roguepatch-light-mobile.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/profile/project-roguepatch-dark.svg">
+  <img src="./assets/profile/project-roguepatch-light.svg" alt="RoguePatch Lab">
+</picture>
+</div>
 
-An adversarial bench for external agent controls, with deterministic checks and typed evidence.
+An adversarial bench for external agent controls, with deterministic checks and typed evidence. [Explore RoguePatch Lab](https://github.com/ElRaxy/roguepatch-lab).
 
-### [SaveMyMoneyNow](https://github.com/ElRaxy/SaveMyMoneyNow)
+### More tools
 
-Bank statement imports with header detection, column mapping and duplicate checks. React + Express + MongoDB.
-
-### [Atalaya](https://github.com/ElRaxy/atalaya-cli)
-
-A Python CLI that collects, deduplicates and ranks developer roles. The person chooses where to apply.
+- [SaveMyMoneyNow](https://github.com/ElRaxy/SaveMyMoneyNow) — Bank statement imports with header detection, column mapping and duplicate checks. React + Express + MongoDB.
+- [Atalaya](https://github.com/ElRaxy/atalaya-cli) — A Python CLI that collects, deduplicates and ranks developer roles. The person chooses where to apply.
 
 <details>
 <summary>Inside Strev and Sereno</summary>
