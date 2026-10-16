@@ -1,0 +1,41 @@
+name: Update public contribution metrics
+
+on:
+  schedule:
+    - cron: '43 5 * * *'
+  workflow_dispatch:
+
+permissions: {}
+
+concurrency:
+  group: profile-metrics
+  cancel-in-progress: false
+
+jobs:
+  metrics:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+      - name: Fetch public data and render metrics
+        run: python3 assets-src/profile-metrics.py
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+      - name: Publish only metric assets
+        shell: bash
+        run: |
+          set -euo pipefail
+          git fetch --depth=1 origin main
+          metrics_dir="$RUNNER_TEMP/profile-metrics-output"
+          git worktree add --detach "$metrics_dir" FETCH_HEAD
+          cp assets/profile/metrics-{light,dark}{,-mobile}.svg assets/profile/metrics-public.json "$metrics_dir/assets/profile/"
+          git -C "$metrics_dir" add -- assets/profile/metrics-light.svg assets/profile/metrics-dark.svg assets/profile/metrics-light-mobile.svg assets/profile/metrics-dark-mobile.svg assets/profile/metrics-public.json
+          if git -C "$metrics_dir" diff --cached --quiet; then
+            exit 0
+          fi
+          git -C "$metrics_dir" config user.name 'github-actions[bot]'
+          git -C "$metrics_dir" config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git -C "$metrics_dir" commit -m 'chore(perfil): actualizar métricas públicas'
+          git -C "$metrics_dir" push origin HEAD:main

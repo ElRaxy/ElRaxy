@@ -13,17 +13,18 @@
 
 ---
 
-## About
+## <img src="./assets/profile/icon-about.svg" width="24" alt=""> About Me
 
 > I'm Alex Micó Robles, a full stack developer in Alicante, Spain. I build web products and tools for my own workflow.
 
-- React interfaces and Node.js APIs for web products.
-- Python tools for coding-agent sessions, job searches and repetitive tasks.
-- Video analysis with Gemini in Strev; deterministic checks for agent controls in RoguePatch Lab.
+<p><img src="./assets/profile/icon-code.svg" width="24" alt=""> React interfaces and Node.js APIs for web products.</p>
+<p><img src="./assets/profile/icon-tools.svg" width="24" alt=""> Python tools for coding-agent sessions, job searches and repetitive tasks.</p>
+<p><img src="./assets/profile/icon-video.svg" width="24" alt=""> Exercise video analysis with Gemini in Strev.</p>
+<p><img src="./assets/profile/icon-shield.svg" width="24" alt=""> Deterministic checks for agent security controls in RoguePatch Lab.</p>
 
 ---
 
-## Tech stack
+## <img src="./assets/profile/icon-code.svg" width="24" alt=""> Tech stack
 
 **Frontend**
 
@@ -54,7 +55,7 @@
 
 ---
 
-## Currently building
+## <img src="./assets/profile/icon-tools.svg" width="24" alt=""> Currently building
 
 ```python
 workbench = {
@@ -66,7 +67,7 @@ workbench = {
 
 ---
 
-## Featured projects
+## <img src="./assets/profile/icon-projects.svg" width="24" alt=""> Featured projects
 
 | Project | What it does |
 | :--- | :--- |
@@ -95,7 +96,7 @@ workbench = {
 
 ---
 
-## GitHub activity
+## <img src="./assets/profile/icon-metrics.svg" width="24" alt=""> GitHub activity
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=ElRaxy&amp;card_width=400&amp;disable_animations=true&amp;show_icons=true&amp;hide_border=true&amp;hide_rank=true&amp;hide=stars&amp;theme=dark&amp;bg_color=00000000&amp;title_color=879aff&amp;icon_color=879aff">
@@ -107,6 +108,21 @@ workbench = {
 </picture>
 
 <sub>Language shares describe code in public repositories, not proficiency.</sub>
+
+---
+
+## <img src="./assets/profile/icon-metrics.svg" width="24" alt=""> Contribution Metrics
+
+<picture>
+  <source media="(prefers-color-scheme: dark) and (max-width: 560px)" srcset="./assets/profile/metrics-dark-mobile.svg">
+  <source media="(max-width: 560px)" srcset="./assets/profile/metrics-light-mobile.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/profile/metrics-dark.svg">
+  <img src="./assets/profile/metrics-light.svg" width="504" alt="Public commits authored, pull requests authored and issues created this year, with a monthly commit chart. Dates and counts are included in the image.">
+</picture>
+
+<sub>Updated daily from the <a href="./assets/profile/metrics-public.json">GitHub Search API</a>. Public repositories only. Commit counts cover default branches; pull requests and issues are counted by creation date, regardless of their current state.</sub>
+
+---
 
 ### Contribution graph
 
