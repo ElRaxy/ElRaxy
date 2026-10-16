@@ -58,9 +58,9 @@
 
 ```python
 workbench = {
-    "Strev":  "training & video review",
+    "Strev": "workouts & video",
     "Sereno": "coding-agent sessions",
-    "Tools":  "local automations",
+    "Tools": "local automations",
 }
 ```
 
