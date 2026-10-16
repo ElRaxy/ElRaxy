@@ -30,6 +30,14 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
+      - name: Respect reduced motion
+        run: |
+          python3 - <<'PYCODE'
+          from pathlib import Path
+          for path in Path('dist').glob('github-snake*.svg'):
+              path.write_text(path.read_text().replace('</svg>', '<style>@media(prefers-reduced-motion:reduce){*{animation:none!important}}</style></svg>'))
+          PYCODE
+
       - name: Publish only the generated SVGs
         shell: bash
         run: |

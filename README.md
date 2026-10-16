@@ -98,12 +98,12 @@ workbench = {
 ## GitHub activity
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=ElRaxy&amp;show_icons=true&amp;hide_border=true&amp;hide_rank=true&amp;hide=stars&amp;theme=dark&amp;bg_color=00000000&amp;title_color=879aff&amp;icon_color=879aff">
-  <img src="https://github-readme-stats.vercel.app/api?username=ElRaxy&amp;show_icons=true&amp;hide_border=true&amp;hide_rank=true&amp;hide=stars&amp;theme=default&amp;bg_color=00000000&amp;title_color=2448ff&amp;icon_color=2448ff" width="400" alt="GitHub activity for ElRaxy, generated from GitHub data.">
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=ElRaxy&amp;card_width=400&amp;disable_animations=true&amp;show_icons=true&amp;hide_border=true&amp;hide_rank=true&amp;hide=stars&amp;theme=dark&amp;bg_color=00000000&amp;title_color=879aff&amp;icon_color=879aff">
+  <img src="https://github-readme-stats.vercel.app/api?username=ElRaxy&amp;card_width=400&amp;disable_animations=true&amp;show_icons=true&amp;hide_border=true&amp;hide_rank=true&amp;hide=stars&amp;theme=default&amp;bg_color=00000000&amp;title_color=2448ff&amp;icon_color=2448ff" width="400" alt="GitHub activity for ElRaxy, generated from GitHub data.">
 </picture>
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=ElRaxy&amp;layout=compact&amp;hide_border=true&amp;langs_count=6&amp;theme=dark&amp;bg_color=00000000&amp;title_color=879aff">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ElRaxy&amp;layout=compact&amp;hide_border=true&amp;langs_count=6&amp;theme=default&amp;bg_color=00000000&amp;title_color=2448ff" width="400" alt="Languages in ElRaxy's public repositories, based on repository code size.">
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=ElRaxy&amp;card_width=400&amp;disable_animations=true&amp;layout=compact&amp;hide_border=true&amp;langs_count=6&amp;theme=dark&amp;bg_color=00000000&amp;title_color=879aff">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ElRaxy&amp;card_width=400&amp;disable_animations=true&amp;layout=compact&amp;hide_border=true&amp;langs_count=6&amp;theme=default&amp;bg_color=00000000&amp;title_color=2448ff" width="400" alt="Languages in ElRaxy's public repositories, based on repository code size.">
 </picture>
 
 <sub>Language shares describe code in public repositories, not proficiency.</sub>
