@@ -36,30 +36,33 @@ def count(kind, query):
 
 
 def render(data, dark, mobile=False):
+    values = [data[key] for key in ('commits', 'pull_requests', 'issues')] + [item['count'] for item in data['months']]
+    if not 1 <= len(data['months']) <= 12 or any(type(value) is not int or value < 0 for value in values):
+        raise ValueError('Metrics require 1–12 months and non-negative integer counts')
+    if data['commits'] != sum(item['count'] for item in data['months']):
+        raise ValueError('Monthly commits must match the displayed total')
     fg, muted, blue, line, tile = ('#e6edf3', '#a4b0be', '#879aff', '#30363d', '#161b22') if dark else ('#1f2328', '#59636e', '#2448ff', '#d1d9e0', '#f6f8fa')
-    def text(x, y, value, size=14, color=fg, weight='400', anchor='start'):
+    def text(x, y, value, size=16, color=fg, weight='400', anchor='start'):
         return f'<text x="{x}" y="{y}" fill="{color}" font-size="{size}" font-weight="{weight}" text-anchor="{anchor}">{escape(str(value))}</text>'
-    body = [text(24, 32, 'Public work, in numbers', 21, blue, '600'), text(24, 55, f"{data['from']} to {data['to']} · UTC", 12, muted)]
+    body = [text(24, 32, 'Public work, in numbers', 21 if mobile else 25, blue, '600'), text(24, 57, f"{data['from']} to {data['to']} · UTC", 13 if mobile else 15, muted)]
     for index, (value, label) in enumerate([(data['commits'], 'Commits authored'), (data['pull_requests'], 'PRs authored'), (data['issues'], 'Issues created')]):
         if mobile:
-            y = 76 + index * 66
-            body += [f'<rect x="24" y="{y}" width="312" height="56" rx="7" fill="{tile}" stroke="{line}"/>', text(36, y + 37, value, 27, fg, '600'), text(118, y + 34, label, 15, muted)]
+            y = 76 + index * 60
+            body += [f'<rect x="24" y="{y}" width="312" height="52" rx="7" fill="{tile}" stroke="{line}"/>', text(36, y + 35, value, 27, fg, '600'), text(118, y + 32, label, 15, muted)]
         else:
-            x = 24 + index * 152
-            body += [f'<rect x="{x}" y="76" width="140" height="86" rx="7" fill="{tile}" stroke="{line}"/>', text(x + 12, 115, value, 30, fg, '600'), text(x + 12, 143, label, 12, muted)]
-    offset = 98 if mobile else 0
-    body += [text(24, 194 + offset, 'Commits authored by month', 14, fg, '600')]
+            x = 24 + index * 228
+            body += [f'<rect x="{x}" y="84" width="216" height="94" rx="7" fill="{tile}" stroke="{line}"/>', text(x + 16, 130, value, 36, fg, '600'), text(x + 16, 158, label, 16, muted)]
+    body += [text(24, 280 if mobile else 215, 'Commits authored by month', 15 if mobile else 18, fg, '600')]
     maximum = max(1, *(item['count'] for item in data['months']))
+    baseline, chart_height, step, bar_width = (376, 72, 26, 18) if mobile else (330, 84, 56, 32)
     for index, item in enumerate(data['months']):
-        x = 25 + index * (26 if mobile else 38)
-        height = round(78 * item['count'] / maximum, 1)
-        body += [f'<rect x="{x}" y="{294 + offset - height}" width="{18 if mobile else 24}" height="{height}" rx="3" fill="{blue}"/>', text(x + 9, 282 + offset - height, item['count'], 12 if mobile else 11, muted, anchor='middle'), text(x + 9, 316 + offset, item['month'], 12 if mobile else 11, muted, anchor='middle')]
-    if mobile:
-        body += [text(24, 450, 'Public repositories · default-branch commits', 12, muted), text(24, 470, f"GitHub Search API · updated {data['to']}", 12, muted)]
-    else:
-        body += [text(24, 348, 'Public repositories only · default-branch commits', 11, muted), text(24, 367, f"GitHub Search API · updated {data['to']}", 11, muted)]
-    size = '360 490' if mobile else '504 388'
-    return f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {size}" role="img" aria-labelledby="title desc"><title id="title">Public contribution metrics for Alex Micó</title><desc id="desc">' + escape(f"{data['from']} to {data['to']}: {data['commits']} public commits authored, {data['pull_requests']} pull requests authored and {data['issues']} issues created. GitHub Search indexes commits on default branches. This is not the contribution-calendar total.") + '</desc><g font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif">' + ''.join(body) + '</g></svg>\n'
+        center = 24 + index * step + step / 2
+        height = round(chart_height * item['count'] / maximum, 1)
+        body += [f'<rect x="{center - bar_width / 2}" y="{baseline - height}" width="{bar_width}" height="{height}" rx="3" fill="{blue}"/>', text(center, baseline - height - 12, item['count'], 12 if mobile else 14, muted, anchor='middle'), text(center, baseline + 22, item['month'], 12 if mobile else 14, muted, anchor='middle')]
+    body += [text(24, 427 if mobile else 384, 'Public repositories only', 13 if mobile else 15, muted)]
+    size = '360 444' if mobile else '720 404'
+    description = f"{data['from']} to {data['to']}: {data['commits']} public commits authored, {data['pull_requests']} pull requests authored and {data['issues']} issues created. GitHub Search indexes commits on default branches. This is not the contribution-calendar total."
+    return f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {size}" width="{360 if mobile else 720}" role="img" aria-labelledby="title desc"><title id="title">Public contribution metrics for Alex Micó</title><desc id="desc">' + escape(description) + '</desc><g font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif">' + ''.join(body) + '</g></svg>\n'
 
 
 def main():
