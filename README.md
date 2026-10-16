@@ -12,55 +12,55 @@
 </div>
 
 
-## <img src="./assets/profile/icon-about.svg" width="22" align="middle" alt=""> About Me
+## <img src="./assets/profile/icon-about.svg" width="22" align="absmiddle" alt=""> About Me
 
 > I'm Alex Micó Robles, a full stack developer in Alicante, Spain. I build web products and tools for my own workflow.
 
-<p><img src="./assets/profile/icon-code.svg" width="18" align="middle" alt=""> <strong>Web products</strong><br>
+<p><img src="./assets/profile/icon-code.svg" width="18" align="absmiddle" alt=""> <strong>Web products</strong><br>
 React interfaces and Node.js APIs.</p>
 
-<p><img src="./assets/profile/icon-tools.svg" width="18" align="middle" alt=""> <strong>Developer tools</strong><br>
+<p><img src="./assets/profile/icon-tools.svg" width="18" align="absmiddle" alt=""> <strong>Developer tools</strong><br>
 Python tools for coding-agent sessions, job searches and local automation.</p>
 
-<p><img src="./assets/profile/icon-video.svg" width="18" align="middle" alt=""> <strong>Applied AI</strong><br>
+<p><img src="./assets/profile/icon-video.svg" width="18" align="absmiddle" alt=""> <strong>Applied AI</strong><br>
 Exercise video analysis with Gemini in Strev.</p>
 
-<p><img src="./assets/profile/icon-shield.svg" width="18" align="middle" alt=""> <strong>Security experiments</strong><br>
+<p><img src="./assets/profile/icon-shield.svg" width="18" align="absmiddle" alt=""> <strong>Security experiments</strong><br>
 Deterministic checks for agent controls in RoguePatch Lab.</p>
 
 Currently building [Strev](https://strev.app) and [Sereno](https://github.com/ElRaxy/sereno), alongside local automation tools.
 
-## <img src="./assets/profile/icon-code.svg" width="22" align="middle" alt=""> Tech stack
+## <img src="./assets/profile/icon-code.svg" width="22" align="absmiddle" alt=""> Tech stack
 
 **Frontend**
 
-![React](./assets/profile/tech-react.svg)
-![JavaScript](./assets/profile/tech-javascript.svg)
-![TypeScript](./assets/profile/tech-typescript.svg)
+![React](./assets/profile/tech-react.svg?v=layout-02)
+![JavaScript](./assets/profile/tech-javascript.svg?v=layout-02)
+![TypeScript](./assets/profile/tech-typescript.svg?v=layout-02)
 
 **Backend & data**
 
-![Node.js](./assets/profile/tech-node.svg)
-![Express](./assets/profile/tech-express.svg)
-![MongoDB](./assets/profile/tech-mongodb.svg)
+![Node.js](./assets/profile/tech-node.svg?v=layout-02)
+![Express](./assets/profile/tech-express.svg?v=layout-02)
+![MongoDB](./assets/profile/tech-mongodb.svg?v=layout-02)
 
 **Tools & automation**
 
-![Python](./assets/profile/tech-python.svg)
-![Bash](./assets/profile/tech-bash.svg)
+![Python](./assets/profile/tech-python.svg?v=layout-02)
+![Bash](./assets/profile/tech-bash.svg?v=layout-02)
 
 **Testing & delivery**
 
-![Vitest](./assets/profile/tech-vitest.svg)
-![GitHub Actions](./assets/profile/tech-github-actions.svg)
+![Vitest](./assets/profile/tech-vitest.svg?v=layout-02)
+![GitHub Actions](./assets/profile/tech-github-actions.svg?v=layout-02)
 
 **AI in Strev**
 
-![Gemini](./assets/profile/tech-gemini.svg)
-![Vertex AI](./assets/profile/tech-vertex-ai.svg)
+![Gemini](./assets/profile/tech-gemini.svg?v=layout-02)
+![Vertex AI](./assets/profile/tech-vertex-ai.svg?v=layout-02)
 
 
-## <img src="./assets/profile/icon-projects.svg" width="22" align="middle" alt=""> Featured projects
+## <img src="./assets/profile/icon-projects.svg" width="22" align="absmiddle" alt=""> Featured projects
 
 ### [Strev](https://strev.app)
 
@@ -100,15 +100,15 @@ A Python CLI that collects, deduplicates and ranks developer roles. The person c
 </details>
 
 
-## <img src="./assets/profile/icon-metrics.svg" width="22" align="middle" alt=""> Contribution Metrics
+## <img src="./assets/profile/icon-metrics.svg" width="22" align="absmiddle" alt=""> Contribution Metrics
 
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark) and (max-width: 1000px)" srcset="./assets/profile/metrics-dark-mobile.svg">
-  <source media="(max-width: 1000px)" srcset="./assets/profile/metrics-light-mobile.svg">
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/profile/metrics-dark.svg">
-  <img src="./assets/profile/metrics-light.svg" alt="Public commits authored, pull requests authored and issues created this year, with a monthly commit chart. Dates and counts are included in the image.">
+  <source media="(prefers-color-scheme: dark) and (max-width: 1000px)" srcset="./assets/profile/metrics-dark-mobile.svg?v=layout-02">
+  <source media="(max-width: 1000px)" srcset="./assets/profile/metrics-light-mobile.svg?v=layout-02">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/profile/metrics-dark.svg?v=layout-02">
+  <img src="./assets/profile/metrics-light.svg?v=layout-02" alt="Public commits authored, pull requests authored and issues created this year, with a monthly commit chart. Dates and counts are included in the image.">
 </picture>
 
 </div>
